@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6CD209BC24FF1E730040613A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD209BB24FF1E730040613A /* AppDelegate.swift */; };
 		6CD209BE24FF1E730040613A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD209BD24FF1E730040613A /* SceneDelegate.swift */; };
-		6CD209C024FF1E730040613A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD209BF24FF1E730040613A /* ViewController.swift */; };
+		6CD209C024FF1E730040613A /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD209BF24FF1E730040613A /* JoinViewController.swift */; };
 		6CD209C324FF1E730040613A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD209C124FF1E730040613A /* Main.storyboard */; };
 		6CD209C524FF1E740040613A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD209C424FF1E740040613A /* Assets.xcassets */; };
 		6CD209C824FF1E740040613A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD209C624FF1E740040613A /* LaunchScreen.storyboard */; };
+		BC4E36622500533900A4D9F0 /* StringRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36612500533900A4D9F0 /* StringRandom.swift */; };
+		BC4E3664250053D000A4D9F0 /* BuyerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E3663250053D000A4D9F0 /* BuyerViewController.swift */; };
+		BC4E36662500541500A4D9F0 /* BuyerViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36652500541500A4D9F0 /* BuyerViewControllerView.swift */; };
+		BC4E36682500546C00A4D9F0 /* BuyerViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36672500546C00A4D9F0 /* BuyerViewControllerHandlers.swift */; };
+		BC4E366A2500558100A4D9F0 /* JoinViewControllerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36692500558000A4D9F0 /* JoinViewControllerViews.swift */; };
+		BC4E366C250055AE00A4D9F0 /* JoinViewControllerConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E366B250055AE00A4D9F0 /* JoinViewControllerConstraints.swift */; };
+		BC4E366E250055E300A4D9F0 /* JoinViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */; };
+		DD03420E6B8151A8016D4FB7 /* Pods_MegaHackWomen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0C8B4CA012FBD307FE264 /* Pods_MegaHackWomen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C0C8B4CA012FBD307FE264 /* Pods_MegaHackWomen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaHackWomen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661C05650D6BB2939B63E811 /* Pods-MegaHackWomen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaHackWomen.debug.xcconfig"; path = "Target Support Files/Pods-MegaHackWomen/Pods-MegaHackWomen.debug.xcconfig"; sourceTree = "<group>"; };
 		6CD209B824FF1E730040613A /* MegaHackWomen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaHackWomen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD209BB24FF1E730040613A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CD209BD24FF1E730040613A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CD209BF24FF1E730040613A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CD209BF24FF1E730040613A /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		6CD209C224FF1E730040613A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CD209C424FF1E740040613A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD209C724FF1E740040613A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CD209C924FF1E740040613A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A7F9204EBA17C5D6921D7B /* Pods-MegaHackWomen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaHackWomen.release.xcconfig"; path = "Target Support Files/Pods-MegaHackWomen/Pods-MegaHackWomen.release.xcconfig"; sourceTree = "<group>"; };
+		BC4E36612500533900A4D9F0 /* StringRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRandom.swift; sourceTree = "<group>"; };
+		BC4E3663250053D000A4D9F0 /* BuyerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerViewController.swift; sourceTree = "<group>"; };
+		BC4E36652500541500A4D9F0 /* BuyerViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerViewControllerView.swift; sourceTree = "<group>"; };
+		BC4E36672500546C00A4D9F0 /* BuyerViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerViewControllerHandlers.swift; sourceTree = "<group>"; };
+		BC4E36692500558000A4D9F0 /* JoinViewControllerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerViews.swift; sourceTree = "<group>"; };
+		BC4E366B250055AE00A4D9F0 /* JoinViewControllerConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerConstraints.swift; sourceTree = "<group>"; };
+		BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerHandlers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD03420E6B8151A8016D4FB7 /* Pods_MegaHackWomen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1CC3CE83A12C4A6DDA61C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				661C05650D6BB2939B63E811 /* Pods-MegaHackWomen.debug.xcconfig */,
+				B4A7F9204EBA17C5D6921D7B /* Pods-MegaHackWomen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6CD209AF24FF1E730040613A = {
 			isa = PBXGroup;
 			children = (
 				6CD209BA24FF1E730040613A /* MegaHackWomen */,
 				6CD209B924FF1E730040613A /* Products */,
+				1B1CC3CE83A12C4A6DDA61C5 /* Pods */,
+				8E891A22F9FB7EDABD6ABF57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,44 @@
 			children = (
 				6CD209BB24FF1E730040613A /* AppDelegate.swift */,
 				6CD209BD24FF1E730040613A /* SceneDelegate.swift */,
-				6CD209BF24FF1E730040613A /* ViewController.swift */,
+				BC4E36612500533900A4D9F0 /* StringRandom.swift */,
+				BC4E366F2500598A00A4D9F0 /* Join */,
+				BC4E3670250059AB00A4D9F0 /* Buyer */,
 				6CD209C124FF1E730040613A /* Main.storyboard */,
 				6CD209C424FF1E740040613A /* Assets.xcassets */,
 				6CD209C624FF1E740040613A /* LaunchScreen.storyboard */,
 				6CD209C924FF1E740040613A /* Info.plist */,
 			);
 			path = MegaHackWomen;
+			sourceTree = "<group>";
+		};
+		8E891A22F9FB7EDABD6ABF57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C0C8B4CA012FBD307FE264 /* Pods_MegaHackWomen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC4E366F2500598A00A4D9F0 /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				6CD209BF24FF1E730040613A /* JoinViewController.swift */,
+				BC4E36692500558000A4D9F0 /* JoinViewControllerViews.swift */,
+				BC4E366B250055AE00A4D9F0 /* JoinViewControllerConstraints.swift */,
+				BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		BC4E3670250059AB00A4D9F0 /* Buyer */ = {
+			isa = PBXGroup;
+			children = (
+				BC4E3663250053D000A4D9F0 /* BuyerViewController.swift */,
+				BC4E36652500541500A4D9F0 /* BuyerViewControllerView.swift */,
+				BC4E36672500546C00A4D9F0 /* BuyerViewControllerHandlers.swift */,
+			);
+			path = Buyer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CD209CC24FF1E740040613A /* Build configuration list for PBXNativeTarget "MegaHackWomen" */;
 			buildPhases = (
+				9549EA5334606D66BBDEEA28 /* [CP] Check Pods Manifest.lock */,
 				6CD209B424FF1E730040613A /* Sources */,
 				6CD209B524FF1E730040613A /* Frameworks */,
 				6CD209B624FF1E730040613A /* Resources */,
+				A417570DC1F9166F14756A10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +196,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9549EA5334606D66BBDEEA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MegaHackWomen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A417570DC1F9166F14756A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MegaHackWomen/Pods-MegaHackWomen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MegaHackWomen/Pods-MegaHackWomen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MegaHackWomen/Pods-MegaHackWomen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CD209B424FF1E730040613A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CD209C024FF1E730040613A /* ViewController.swift in Sources */,
+				6CD209C024FF1E730040613A /* JoinViewController.swift in Sources */,
+				BC4E366C250055AE00A4D9F0 /* JoinViewControllerConstraints.swift in Sources */,
+				BC4E36622500533900A4D9F0 /* StringRandom.swift in Sources */,
 				6CD209BC24FF1E730040613A /* AppDelegate.swift in Sources */,
+				BC4E36682500546C00A4D9F0 /* BuyerViewControllerHandlers.swift in Sources */,
+				BC4E3664250053D000A4D9F0 /* BuyerViewController.swift in Sources */,
+				BC4E366E250055E300A4D9F0 /* JoinViewControllerHandlers.swift in Sources */,
+				BC4E366A2500558100A4D9F0 /* JoinViewControllerViews.swift in Sources */,
+				BC4E36662500541500A4D9F0 /* BuyerViewControllerView.swift in Sources */,
 				6CD209BE24FF1E730040613A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,10 +394,11 @@
 		};
 		6CD209CD24FF1E740040613A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661C05650D6BB2939B63E811 /* Pods-MegaHackWomen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AMXQN329PY;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
 				INFOPLIST_FILE = MegaHackWomen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +413,11 @@
 		};
 		6CD209CE24FF1E740040613A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A7F9204EBA17C5D6921D7B /* Pods-MegaHackWomen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AMXQN329PY;
+				DEVELOPMENT_TEAM = A7Z8B7ZWX2;
 				INFOPLIST_FILE = MegaHackWomen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
