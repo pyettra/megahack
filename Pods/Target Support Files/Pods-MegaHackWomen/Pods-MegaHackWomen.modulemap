@@ -1,0 +1,6 @@
+framework module Pods_MegaHackWomen {
+  umbrella header "Pods-MegaHackWomen-umbrella.h"
+
+  export *
+  module * { export * }
+}
