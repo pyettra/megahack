@@ -14,9 +14,9 @@
 		6CD209C524FF1E740040613A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD209C424FF1E740040613A /* Assets.xcassets */; };
 		6CD209C824FF1E740040613A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD209C624FF1E740040613A /* LaunchScreen.storyboard */; };
 		BC4E36622500533900A4D9F0 /* StringRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36612500533900A4D9F0 /* StringRandom.swift */; };
-		BC4E3664250053D000A4D9F0 /* BuyerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E3663250053D000A4D9F0 /* BuyerViewController.swift */; };
-		BC4E36662500541500A4D9F0 /* BuyerViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36652500541500A4D9F0 /* BuyerViewControllerView.swift */; };
-		BC4E36682500546C00A4D9F0 /* BuyerViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36672500546C00A4D9F0 /* BuyerViewControllerHandlers.swift */; };
+		BC4E3664250053D000A4D9F0 /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E3663250053D000A4D9F0 /* ClientViewController.swift */; };
+		BC4E36662500541500A4D9F0 /* ClientViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36652500541500A4D9F0 /* ClientViewControllerView.swift */; };
+		BC4E36682500546C00A4D9F0 /* ClientViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36672500546C00A4D9F0 /* ClientViewControllerHandlers.swift */; };
 		BC4E366A2500558100A4D9F0 /* JoinViewControllerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36692500558000A4D9F0 /* JoinViewControllerViews.swift */; };
 		BC4E366C250055AE00A4D9F0 /* JoinViewControllerConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E366B250055AE00A4D9F0 /* JoinViewControllerConstraints.swift */; };
 		BC4E366E250055E300A4D9F0 /* JoinViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */; };
@@ -36,9 +36,9 @@
 		6CD209C924FF1E740040613A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4A7F9204EBA17C5D6921D7B /* Pods-MegaHackWomen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaHackWomen.release.xcconfig"; path = "Target Support Files/Pods-MegaHackWomen/Pods-MegaHackWomen.release.xcconfig"; sourceTree = "<group>"; };
 		BC4E36612500533900A4D9F0 /* StringRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRandom.swift; sourceTree = "<group>"; };
-		BC4E3663250053D000A4D9F0 /* BuyerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerViewController.swift; sourceTree = "<group>"; };
-		BC4E36652500541500A4D9F0 /* BuyerViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerViewControllerView.swift; sourceTree = "<group>"; };
-		BC4E36672500546C00A4D9F0 /* BuyerViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyerViewControllerHandlers.swift; sourceTree = "<group>"; };
+		BC4E3663250053D000A4D9F0 /* ClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		BC4E36652500541500A4D9F0 /* ClientViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewControllerView.swift; sourceTree = "<group>"; };
+		BC4E36672500546C00A4D9F0 /* ClientViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientViewControllerHandlers.swift; sourceTree = "<group>"; };
 		BC4E36692500558000A4D9F0 /* JoinViewControllerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerViews.swift; sourceTree = "<group>"; };
 		BC4E366B250055AE00A4D9F0 /* JoinViewControllerConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerConstraints.swift; sourceTree = "<group>"; };
 		BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerHandlers.swift; sourceTree = "<group>"; };
@@ -121,9 +121,9 @@
 		BC4E3670250059AB00A4D9F0 /* Buyer */ = {
 			isa = PBXGroup;
 			children = (
-				BC4E3663250053D000A4D9F0 /* BuyerViewController.swift */,
-				BC4E36652500541500A4D9F0 /* BuyerViewControllerView.swift */,
-				BC4E36672500546C00A4D9F0 /* BuyerViewControllerHandlers.swift */,
+				BC4E3663250053D000A4D9F0 /* ClientViewController.swift */,
+				BC4E36652500541500A4D9F0 /* ClientViewControllerView.swift */,
+				BC4E36672500546C00A4D9F0 /* ClientViewControllerHandlers.swift */,
 			);
 			path = Buyer;
 			sourceTree = "<group>";
@@ -247,11 +247,11 @@
 				BC4E366C250055AE00A4D9F0 /* JoinViewControllerConstraints.swift in Sources */,
 				BC4E36622500533900A4D9F0 /* StringRandom.swift in Sources */,
 				6CD209BC24FF1E730040613A /* AppDelegate.swift in Sources */,
-				BC4E36682500546C00A4D9F0 /* BuyerViewControllerHandlers.swift in Sources */,
-				BC4E3664250053D000A4D9F0 /* BuyerViewController.swift in Sources */,
+				BC4E36682500546C00A4D9F0 /* ClientViewControllerHandlers.swift in Sources */,
+				BC4E3664250053D000A4D9F0 /* ClientViewController.swift in Sources */,
 				BC4E366E250055E300A4D9F0 /* JoinViewControllerHandlers.swift in Sources */,
 				BC4E366A2500558100A4D9F0 /* JoinViewControllerViews.swift in Sources */,
-				BC4E36662500541500A4D9F0 /* BuyerViewControllerView.swift in Sources */,
+				BC4E36662500541500A4D9F0 /* ClientViewControllerView.swift in Sources */,
 				6CD209BE24FF1E730040613A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,32 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAJ-cw-Zj9">
+                                <rect key="frame" x="163" y="298" width="88" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Client "/>
+                                <connections>
+                                    <action selector="clientButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wlI-jq-8Xa"/>
+                                    <segue destination="hqP-Uo-Hax" kind="show" id="43A-T2-cct"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9l-55-I47">
+                                <rect key="frame" x="160.5" y="432" width="93" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Doctor"/>
+                                <connections>
+                                    <action selector="doctorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a2k-yg-5Xp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="WAJ-cw-Zj9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5xj-8g-0zH"/>
+                            <constraint firstItem="s9l-55-I47" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9v9-JO-tDA"/>
+                            <constraint firstItem="WAJ-cw-Zj9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="210" id="THh-ae-qMw"/>
+                            <constraint firstItem="s9l-55-I47" firstAttribute="top" secondItem="WAJ-cw-Zj9" secondAttribute="bottom" constant="83" id="mH7-z4-3AQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Q4-Tw-dCC"/>
@@ -22,6 +47,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="138.61607142857142"/>
+        </scene>
+        <!--Client View Controller-->
+        <scene sceneID="zrC-DF-ql3">
+            <objects>
+                <viewController id="hqP-Uo-Hax" customClass="ClientViewController" customModule="MegaHackWomen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PCz-g7-Etw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como deseja realizar sua consulta?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHP-0j-Pb9">
+                                <rect key="frame" x="52.5" y="200" width="309" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mHP-0j-Pb9" secondAttribute="height" multiplier="309:100" id="UTX-nn-Xzl"/>
+                                    <constraint firstAttribute="width" constant="309" id="WkB-y3-cVe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kj-y0-Wwk">
+                                <rect key="frame" x="103" y="363" width="208" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Video-chamada"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jl4-WF-zH9">
+                                <rect key="frame" x="175.5" y="452" width="63" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Chat"/>
+                                <connections>
+                                    <action selector="chatButton:" destination="hqP-Uo-Hax" eventType="touchUpInside" id="aN1-fR-5yg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jl4-WF-zH9" firstAttribute="top" secondItem="4Kj-y0-Wwk" secondAttribute="bottom" constant="41" id="7X1-R6-rcN"/>
+                            <constraint firstItem="mHP-0j-Pb9" firstAttribute="centerX" secondItem="ahe-tA-pjA" secondAttribute="centerX" id="N3c-rP-J2f"/>
+                            <constraint firstItem="4Kj-y0-Wwk" firstAttribute="top" secondItem="mHP-0j-Pb9" secondAttribute="bottom" constant="63" id="Nj6-MV-n9Z"/>
+                            <constraint firstItem="jl4-WF-zH9" firstAttribute="centerX" secondItem="ahe-tA-pjA" secondAttribute="centerX" id="OL6-a0-1l3"/>
+                            <constraint firstItem="4Kj-y0-Wwk" firstAttribute="centerX" secondItem="ahe-tA-pjA" secondAttribute="centerX" id="TZV-yf-MfB"/>
+                            <constraint firstItem="mHP-0j-Pb9" firstAttribute="top" secondItem="ahe-tA-pjA" secondAttribute="top" constant="112" id="ZUG-4s-ofx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ahe-tA-pjA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ELd-e6-Agq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wGw-6U-1s3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1943" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="46d-q0-aDX">
