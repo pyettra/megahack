@@ -13,6 +13,8 @@ import StreamChatClient
 class ClientViewController: UIViewController {
     
     @IBAction func chatButton(_ sender: Any) {
+        let buttonEndAppointment = UIBarButtonItem(title: "End", style: .plain, target: self, action: #selector(ratingAppointment))
+        
         let uid = Client.shared.user.id
         let channel = Client.shared.channel(type: .messaging, id: "support-\(uid)")
         channel.extraData = ChannelExtraData(name: "\(uid) support")
@@ -25,20 +27,23 @@ class ClientViewController: UIViewController {
         let chatVC = ChatViewController()
         chatVC.presenter = .init(channel: channel)
         chatVC.title = "Messages"
+        chatVC.navigationItem.rightBarButtonItem = buttonEndAppointment
         
         let navigation = UINavigationController(rootViewController: chatVC)
+
         
         self.present(navigation, animated: true, completion: {
             
         })
     }
+    
+    @objc func ratingAppointment() {
+        print("terminou a consulta - chamar a tela de rating")
+    }
 
-//    let chatButton = UIBarButtonItem()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        setupViews()
-//        setupHandlers()
     }
 
 }
