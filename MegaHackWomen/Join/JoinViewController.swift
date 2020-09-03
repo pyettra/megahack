@@ -14,15 +14,16 @@ import StreamChatClient
 class JoinViewController: UIViewController {
     
     @IBAction func clientButton(_ sender: Any) {
-        Client.shared.set(user: .init(id: .random()), token: .development) { result in
-            switch result {
-            case .success:
-                let buyerVC = ClientViewController()
-                self.navigationController?.pushViewController(buyerVC, animated: true)
-            case .failure(let error):
-                print(error)
-            }
-        }
+        Client.shared.set(user: .init(id: .random()), token: .development)
+//        { result in
+//            switch result {
+//            case .success:
+//               let buyerVC = ClientViewController()
+//               self.navigationController?.pushViewController(buyerVC, animated: true)
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
     }
     
     @IBAction func doctorButton(_ sender: Any) {
