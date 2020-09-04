@@ -22,6 +22,7 @@
 		BC4E366E250055E300A4D9F0 /* JoinViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */; };
 		BC4E36962501C01E00A4D9F0 /* RatingDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */; };
 		BC4E36982501D39800A4D9F0 /* RatingAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */; };
+		BC4E369A2501D66200A4D9F0 /* EndAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36992501D66200A4D9F0 /* EndAppointmentViewController.swift */; };
 		DD03420E6B8151A8016D4FB7 /* Pods_MegaHackWomen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0C8B4CA012FBD307FE264 /* Pods_MegaHackWomen.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerHandlers.swift; sourceTree = "<group>"; };
 		BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDoctorViewController.swift; sourceTree = "<group>"; };
 		BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingAppViewController.swift; sourceTree = "<group>"; };
+		BC4E36992501D66200A4D9F0 /* EndAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndAppointmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				6CD209C924FF1E740040613A /* Info.plist */,
 				BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */,
 				BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */,
+				BC4E36992501D66200A4D9F0 /* EndAppointmentViewController.swift */,
 			);
 			path = MegaHackWomen;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				BC4E3664250053D000A4D9F0 /* ClientViewController.swift in Sources */,
 				BC4E366E250055E300A4D9F0 /* JoinViewControllerHandlers.swift in Sources */,
 				BC4E366A2500558100A4D9F0 /* JoinViewControllerViews.swift in Sources */,
+				BC4E369A2501D66200A4D9F0 /* EndAppointmentViewController.swift in Sources */,
 				BC4E36662500541500A4D9F0 /* ClientViewControllerView.swift in Sources */,
 				6CD209BE24FF1E730040613A /* SceneDelegate.swift in Sources */,
 			);
