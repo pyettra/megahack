@@ -20,6 +20,8 @@
 		BC4E366A2500558100A4D9F0 /* JoinViewControllerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36692500558000A4D9F0 /* JoinViewControllerViews.swift */; };
 		BC4E366C250055AE00A4D9F0 /* JoinViewControllerConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E366B250055AE00A4D9F0 /* JoinViewControllerConstraints.swift */; };
 		BC4E366E250055E300A4D9F0 /* JoinViewControllerHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */; };
+		BC4E36962501C01E00A4D9F0 /* RatingDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */; };
+		BC4E36982501D39800A4D9F0 /* RatingAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */; };
 		DD03420E6B8151A8016D4FB7 /* Pods_MegaHackWomen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0C8B4CA012FBD307FE264 /* Pods_MegaHackWomen.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		BC4E36692500558000A4D9F0 /* JoinViewControllerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerViews.swift; sourceTree = "<group>"; };
 		BC4E366B250055AE00A4D9F0 /* JoinViewControllerConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerConstraints.swift; sourceTree = "<group>"; };
 		BC4E366D250055E300A4D9F0 /* JoinViewControllerHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewControllerHandlers.swift; sourceTree = "<group>"; };
+		BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDoctorViewController.swift; sourceTree = "<group>"; };
+		BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingAppViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				6CD209C424FF1E740040613A /* Assets.xcassets */,
 				6CD209C624FF1E740040613A /* LaunchScreen.storyboard */,
 				6CD209C924FF1E740040613A /* Info.plist */,
+				BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */,
+				BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */,
 			);
 			path = MegaHackWomen;
 			sourceTree = "<group>";
@@ -244,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CD209C024FF1E730040613A /* JoinViewController.swift in Sources */,
+				BC4E36982501D39800A4D9F0 /* RatingAppViewController.swift in Sources */,
+				BC4E36962501C01E00A4D9F0 /* RatingDoctorViewController.swift in Sources */,
 				BC4E366C250055AE00A4D9F0 /* JoinViewControllerConstraints.swift in Sources */,
 				BC4E36622500533900A4D9F0 /* StringRandom.swift in Sources */,
 				6CD209BC24FF1E730040613A /* AppDelegate.swift in Sources */,

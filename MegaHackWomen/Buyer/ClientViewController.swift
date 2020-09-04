@@ -39,6 +39,7 @@ class ClientViewController: UIViewController {
     
     @objc func ratingAppointment() {
         print("terminou a consulta - chamar a tela de rating")
+        //mandar p view controller
     }
 
     
