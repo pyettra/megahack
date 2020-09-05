@@ -1,5 +1,5 @@
 //
-//  OnBoarding3ViewController.swift
+//  OnBoarding6ViewController.swift
 //  MegaHackWomen
 //
 //  Created by Eduarda Mello on 05/09/20.
@@ -8,11 +8,8 @@
 
 import UIKit
 
-class OnBoarding3ViewController: UIViewController {
-    @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var registerNumberTextField: UITextField!
-    @IBOutlet weak var emergencyContactTextField: UITextField!
-    @IBOutlet weak var emergencyContactNameTextField: UITextField!
+class OnBoarding6ViewController: UIViewController {
+    @IBOutlet weak var textView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +17,6 @@ class OnBoarding3ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
-        
 
     }
-
 }
