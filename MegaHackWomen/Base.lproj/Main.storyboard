@@ -279,10 +279,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Rating Doctor Skills View Controller-->
         <scene sceneID="JY4-Gt-G3G">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="cvD-5B-ijh" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="cvD-5B-ijh" customClass="RatingDoctorSkillsViewController" customModule="MegaHackWomen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aTS-eu-bgK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
