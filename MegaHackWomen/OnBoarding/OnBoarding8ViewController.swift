@@ -21,117 +21,117 @@ class OnBoarding8ViewController: UIViewController {
     var isSelected: Bool!
     
     func setCircle() {
-        aPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
-        aNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
-        bPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
-        bNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
-        oPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
-        oNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
-        abPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
-        abNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+        aPosCircle.setImage(UIImage(named: "BotãoA+"), for: .normal)
+        aNegCircle.setImage(UIImage(named: "BotãoA-"), for: .normal)
+        bPosCircle.setImage(UIImage(named: "BotãoB+"), for: .normal)
+        bNegCircle.setImage(UIImage(named: "BotãoB-"), for: .normal)
+        oPosCircle.setImage(UIImage(named: "BotãoO+"), for: .normal)
+        oNegCircle.setImage(UIImage(named: "BotãoO-"), for: .normal)
+        abPosCircle.setImage(UIImage(named: "BotãoAB+"), for: .normal)
+        abNegCircle.setImage(UIImage(named: "BotãoAB-"), for: .normal)
     }
     
 
     @IBAction func aPosButton(_ sender: Any) {
-        if aPosCircle.currentImage == UIImage(systemName: "circle") {
+        if aPosCircle.currentImage == UIImage(named: "BotãoA+") {
             if isSelected == true {
                 setCircle()
             }
-            aPosCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            aPosCircle.setImage(UIImage(named: "BotãoA+Preenchido"), for: .normal)
             isSelected = true
         } else {
-            aPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            aPosCircle.setImage(UIImage(named: "BotãoA+"), for: .normal)
             isSelected = false
         }
     }
     
     @IBAction func aNegButton(_ sender: Any) {
-        if aNegCircle.currentImage == UIImage(systemName: "circle") {
+        if aNegCircle.currentImage == UIImage(named: "BotãoA-") {
             if isSelected == true {
                 setCircle()
             }
-            aNegCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            aNegCircle.setImage(UIImage(named: "BotãoA-Preenchido"), for: .normal)
             isSelected = true
         } else {
-            aNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            aNegCircle.setImage(UIImage(named: "BotãoA-"), for: .normal)
             isSelected = false
         }
     }
     @IBAction func bPosButton(_ sender: Any) {
-        if bPosCircle.currentImage == UIImage(systemName: "circle") {
+        if bPosCircle.currentImage == UIImage(named: "BotãoB+") {
             if isSelected == true {
                 setCircle()
             }
-            bPosCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            bPosCircle.setImage(UIImage(named: "BotãoB+Preenchido"), for: .normal)
             isSelected = true
         } else {
-            bPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            bPosCircle.setImage(UIImage(named: "BotãoB+"), for: .normal)
             isSelected = false
         }
     }
     
     @IBAction func bNegButton(_ sender: Any) {
-        if bNegCircle.currentImage == UIImage(systemName: "circle") {
+        if bNegCircle.currentImage == UIImage(named: "BotãoB-") {
             if isSelected == true {
                 setCircle()
             }
-            bNegCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            bNegCircle.setImage(UIImage(named: "BotãoB-Preenchido"), for: .normal)
             isSelected = true
         } else {
-            bNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            bNegCircle.setImage(UIImage(named: "BotãoB-"), for: .normal)
             isSelected = false
         }
     }
     
     
     @IBAction func oPosButton(_ sender: Any) {
-        if oPosCircle.currentImage == UIImage(systemName: "circle") {
+        if oPosCircle.currentImage == UIImage(named: "BotãoO+") {
             if isSelected == true {
                 setCircle()
             }
-            oPosCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            oPosCircle.setImage(UIImage(named: "BotãoO+Preenchido"), for: .normal)
             isSelected = true
         } else {
-            oPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            oPosCircle.setImage(UIImage(named: "BotãoO+"), for: .normal)
             isSelected = false
         }
     }
     
     @IBAction func oNegButton(_ sender: Any) {
-        if oNegCircle.currentImage == UIImage(systemName: "circle") {
+        if oNegCircle.currentImage == UIImage(named: "BotãoO-") {
             if isSelected == true {
                 setCircle()
             }
-            oNegCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            oNegCircle.setImage(UIImage(named: "BotãoO-Preenchido"), for: .normal)
             isSelected = true
         } else {
-            oNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            oNegCircle.setImage(UIImage(named: "BotãoO-"), for: .normal)
             isSelected = false
         }
     }
     
     @IBAction func abPosButton(_ sender: Any) {
-        if abPosCircle.currentImage == UIImage(systemName: "circle") {
+        if abPosCircle.currentImage == UIImage(named: "BotãoAB+") {
             if isSelected == true {
                 setCircle()
             }
-            abPosCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            abPosCircle.setImage(UIImage(named: "BotãoAB+Preenchido"), for: .normal)
             isSelected = true
         } else {
-            abPosCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            abPosCircle.setImage(UIImage(named: "BotãoAB+"), for: .normal)
             isSelected = false
         }
     }
     
     @IBAction func abNegButton(_ sender: Any) {
-        if abNegCircle.currentImage == UIImage(systemName: "circle") {
+        if abNegCircle.currentImage == UIImage(named: "BotãoAB-") {
             if isSelected == true {
                 setCircle()
             }
-            abNegCircle.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .normal)
+            abNegCircle.setImage(UIImage(named: "BotãoAB-Preenchido"), for: .normal)
             isSelected = true
         } else {
-            abNegCircle.setImage(UIImage(systemName: "circle"), for: .normal)
+            abNegCircle.setImage(UIImage(named: "BotãoAB-"), for: .normal)
             isSelected = false
         }
     }
