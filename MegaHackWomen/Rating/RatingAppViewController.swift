@@ -21,9 +21,9 @@ class RatingAppViewController: UIViewController {
         
         for btn in buttonStars {
             if btn.tag <= store {
-                btn.setImage(UIImage(systemName: "star.fill"), for: .normal)
+                btn.setImage(UIImage(named: "StarFilled"), for: .normal)
             } else {
-                btn.setImage(UIImage(systemName: "star"), for: .normal)
+                btn.setImage(UIImage(named: "Star"), for: .normal)
                 
             }
         }

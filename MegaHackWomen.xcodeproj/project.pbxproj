@@ -23,7 +23,6 @@
 		BC4E36962501C01E00A4D9F0 /* RatingDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */; };
 		BC4E36982501D39800A4D9F0 /* RatingAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */; };
 		BC4E369A2501D66200A4D9F0 /* EndAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36992501D66200A4D9F0 /* EndAppointmentViewController.swift */; };
-		BC4E369D2503BF4900A4D9F0 /* RatingDoctorSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E369C2503BF4900A4D9F0 /* RatingDoctorSkillsViewController.swift */; };
 		BC4E369F2503D5AC00A4D9F0 /* OnBoarding1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E369E2503D5AC00A4D9F0 /* OnBoarding1ViewController.swift */; };
 		BC4E36A22503D6C000A4D9F0 /* OnBoarding2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36A12503D6C000A4D9F0 /* OnBoarding2ViewController.swift */; };
 		BC4E36A42503D9C300A4D9F0 /* OnBoarding3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36A32503D9C300A4D9F0 /* OnBoarding3ViewController.swift */; };
@@ -68,7 +67,6 @@
 		BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDoctorViewController.swift; sourceTree = "<group>"; };
 		BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingAppViewController.swift; sourceTree = "<group>"; };
 		BC4E36992501D66200A4D9F0 /* EndAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndAppointmentViewController.swift; sourceTree = "<group>"; };
-		BC4E369C2503BF4900A4D9F0 /* RatingDoctorSkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingDoctorSkillsViewController.swift; sourceTree = "<group>"; };
 		BC4E369E2503D5AC00A4D9F0 /* OnBoarding1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding1ViewController.swift; sourceTree = "<group>"; };
 		BC4E36A12503D6C000A4D9F0 /* OnBoarding2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding2ViewController.swift; sourceTree = "<group>"; };
 		BC4E36A32503D9C300A4D9F0 /* OnBoarding3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding3ViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 			children = (
 				BC4E36952501C01D00A4D9F0 /* RatingDoctorViewController.swift */,
 				BC4E36972501D39800A4D9F0 /* RatingAppViewController.swift */,
-				BC4E369C2503BF4900A4D9F0 /* RatingDoctorSkillsViewController.swift */,
 				BC4E36992501D66200A4D9F0 /* EndAppointmentViewController.swift */,
 			);
 			path = Rating;
@@ -362,7 +359,6 @@
 				BC4E36C6250464FC00A4D9F0 /* DiagnosticHistoryViewController.swift in Sources */,
 				BC4E36AE2503F5E100A4D9F0 /* OnBoarding8ViewController.swift in Sources */,
 				BC4E366A2500558100A4D9F0 /* JoinViewControllerViews.swift in Sources */,
-				BC4E369D2503BF4900A4D9F0 /* RatingDoctorSkillsViewController.swift in Sources */,
 				BC4E369A2501D66200A4D9F0 /* EndAppointmentViewController.swift in Sources */,
 				BC4E36662500541500A4D9F0 /* ClientViewControllerView.swift in Sources */,
 				BC4E36A22503D6C000A4D9F0 /* OnBoarding2ViewController.swift in Sources */,
