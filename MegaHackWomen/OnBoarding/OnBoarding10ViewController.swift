@@ -20,7 +20,7 @@ class OnBoarding10ViewController: UIViewController {
 
 
     @IBAction func exercise1Button(_ sender: Any) {
-        if exercise1.currentImage == UIImage(systemName: "square") {
+        if exercise1.currentImage == UIImage(named: "Checkbox") {
             exercise1.setImage(UIImage(named: "CheckboxPreenchido"), for: .normal)
         } else {
             exercise1.setImage(UIImage(named: "Checkbox"), for: .normal)
