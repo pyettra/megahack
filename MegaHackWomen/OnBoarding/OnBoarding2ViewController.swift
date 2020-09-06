@@ -15,19 +15,19 @@ class OnBoarding2ViewController: UIViewController {
     @IBOutlet weak var dislexiaOutlet: UIButton!
     
     @IBAction func textButton(_ sender: Any) {
-        if textOutlet.currentImage == UIImage(named: "BotaoPadrão") {
-            textOutlet.setImage(UIImage(named: "BotaoPadrãoPreenchido"), for: .normal)
+        if textOutlet.currentImage == UIImage(named: "BotaoPadrao") {
+            textOutlet.setImage(UIImage(named: "BotaoPadraoPreenchido"), for: .normal)
         } else {
-            textOutlet.setImage(UIImage(named: "BotaoPadrão"), for: .normal)
+            textOutlet.setImage(UIImage(named: "BotaoPadrao"), for: .normal)
         }
         
     }
     
     @IBAction func audioButton(_ sender: Any) {
-        if audioOutlet.currentImage == UIImage(named: "BotaoÁudio") {
+        if audioOutlet.currentImage == UIImage(named: "BotaoAudio") {
             audioOutlet.setImage(UIImage(named: "BotaoAudioPreenchido"), for: .normal)
         } else {
-            audioOutlet.setImage(UIImage(named: "BotaoÁudio"), for: .normal)
+            audioOutlet.setImage(UIImage(named: "BotaoAudio"), for: .normal)
         }
 
     }
@@ -42,10 +42,10 @@ class OnBoarding2ViewController: UIViewController {
     }
     
     @IBAction func dislexiaButton(_ sender: Any) {
-        if dislexiaOutlet.currentImage == UIImage(named: "BotãoDislexia") {
-            dislexiaOutlet.setImage(UIImage(named: "BotãoDislexiaPreenchido"), for: .normal)
+        if dislexiaOutlet.currentImage == UIImage(named: "BotaoDislexia") {
+            dislexiaOutlet.setImage(UIImage(named: "BotaoDislexiaPreenchido"), for: .normal)
         } else {
-            dislexiaOutlet.setImage(UIImage(named: "BotãoDislexia"), for: .normal)
+            dislexiaOutlet.setImage(UIImage(named: "BotaoDislexia"), for: .normal)
         }
 
     }
@@ -53,10 +53,10 @@ class OnBoarding2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textOutlet.setImage(UIImage(named: "BotaoPadrão"), for: .normal)
-        audioOutlet.setImage(UIImage(named: "BotaoÁudio"), for: .normal)
+        textOutlet.setImage(UIImage(named: "BotaoPadrao"), for: .normal)
+        audioOutlet.setImage(UIImage(named: "BotaoAudio"), for: .normal)
         librasOutlet.setImage(UIImage(named: "BotaoLibras"), for: .normal)
-        dislexiaOutlet.setImage(UIImage(named: "BotãoDislexia"), for: .normal)
+        dislexiaOutlet.setImage(UIImage(named: "BotaoDislexia"), for: .normal)
 
     }
 }

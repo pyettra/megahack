@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q76-qQ-r8p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wy3-YW-1bm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -1476,7 +1476,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xq-RC-VG6">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="jkk-3P-XZz" kind="presentation" id="I7P-jO-NEz"/>
                                 </connections>
@@ -1533,7 +1533,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLC-pT-Anu">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="Er1-ge-Dm7" kind="presentation" id="ad4-a4-b7r"/>
                                 </connections>
@@ -1611,7 +1611,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzE-fv-vEF">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="O6x-Qj-CRx" kind="presentation" id="ohu-ks-TZP"/>
                                 </connections>
@@ -1786,7 +1786,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbo-Xy-IQR">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="ZvT-MS-0LM" kind="presentation" id="xW7-Wf-kgd"/>
                                 </connections>
@@ -1854,7 +1854,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bS4-bn-30g">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="GiX-u3-DWe" kind="presentation" id="flj-Bp-6VI"/>
                                 </connections>
@@ -1940,7 +1940,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXx-rq-4FV">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="BR6-Ez-0SZ" kind="presentation" id="K8b-jX-nH7"/>
                                 </connections>
@@ -2040,7 +2040,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRg-ke-z9d">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="SmU-bl-K32" kind="presentation" id="Vg0-jE-dU7"/>
                                 </connections>
@@ -2215,7 +2215,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GxR-RO-jn0">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                                 <connections>
                                     <segue destination="9Yo-Gg-XXb" kind="presentation" id="yIk-zT-gNm"/>
                                 </connections>
@@ -2328,7 +2328,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IU9-x3-t1c">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoComeçar"/>
+                                <state key="normal" image="BotaoComecar"/>
                                 <connections>
                                     <action selector="startButton:" destination="9Yo-Gg-XXb" eventType="touchUpInside" id="Nib-PL-wOl"/>
                                 </connections>
@@ -2629,7 +2629,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0m-3j-07f">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotãoProximo"/>
+                                <state key="normal" image="BotaoProximo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIf-Ai-Mug">
                                 <rect key="frame" x="48" y="239" width="34" height="34"/>
@@ -2695,11 +2695,13 @@
     <resources>
         <image name="BotaoÁudio" width="576" height="276"/>
         <image name="BotaoComandodeVozPreenchido" width="616" height="424"/>
+        <image name="BotaoComecar" width="540" height="192"/>
         <image name="BotaoConsultas" width="980" height="280"/>
         <image name="BotaoDiagnosticos" width="980" height="280"/>
         <image name="BotaoExames" width="980" height="280"/>
         <image name="BotaoLibras" width="576" height="276"/>
         <image name="BotaoPadrão" width="576" height="276"/>
+        <image name="BotaoProximo" width="540" height="192"/>
         <image name="BotaoReceitas" width="980" height="280"/>
         <image name="BotaoToquePreenchido" width="616" height="424"/>
         <image name="BotãoA+" width="440" height="232"/>
@@ -2708,7 +2710,6 @@
         <image name="BotãoAB-" width="440" height="232"/>
         <image name="BotãoB+" width="440" height="232"/>
         <image name="BotãoB-" width="440" height="232"/>
-        <image name="BotãoComeçar" width="540" height="192"/>
         <image name="BotãoDislexia" width="576" height="276"/>
         <image name="BotãoFeminino" width="132" height="128"/>
         <image name="BotãoMasculino" width="132" height="128"/>

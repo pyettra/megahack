@@ -32,46 +32,46 @@ class OnBoarding3ViewController: UIViewController {
     }
     
     @IBAction func femaleAction(_ sender: Any) {
-        if femaleButton.currentImage == UIImage(named: "BotãoFeminino") {
+        if femaleButton.currentImage == UIImage(named: "BotaoFeminino") {
             if isSelected == true {
                 setImages()
             }
-            femaleButton.setImage(UIImage(named: "BotãoFemininoPreenchido"), for: .normal)
+            femaleButton.setImage(UIImage(named: "BotaoFemininoPreenchido"), for: .normal)
             isSelected = true
         } else {
-            femaleButton.setImage(UIImage(named: "BotãoFeminino"), for: .normal)
+            femaleButton.setImage(UIImage(named: "BotaoFeminino"), for: .normal)
             isSelected = false
         }
     }
     
     @IBAction func maleAction(_ sender: Any) {
-        if maleButton.currentImage == UIImage(named: "BotãoMasculino") {
+        if maleButton.currentImage == UIImage(named: "BotaoMasculino") {
             if isSelected == true {
                 setImages()
             }
-            maleButton.setImage(UIImage(named: "BotãoMasculinoPreenchido"), for: .normal)
+            maleButton.setImage(UIImage(named: "BotaoMasculinoPreenchido"), for: .normal)
             isSelected = true
         } else {
-            maleButton.setImage(UIImage(named: "BotãoMasculino"), for: .normal)
+            maleButton.setImage(UIImage(named: "BotaoMasculino"), for: .normal)
             isSelected = false
         }
     }
     @IBAction func otherAction(_ sender: Any) {
-        if otherButton.currentImage == UIImage(named: "BotãoOutroGênero") {
+        if otherButton.currentImage == UIImage(named: "BotaoOutroGenero") {
             if isSelected == true {
                 setImages()
             }
-            otherButton.setImage(UIImage(named: "BotãoOutroGêneroPreenchido"), for: .normal)
+            otherButton.setImage(UIImage(named: "BotaoOutroGeneroPreenchido"), for: .normal)
             isSelected = true
         } else {
-            otherButton.setImage(UIImage(named: "BotãoOutroGênero"), for: .normal)
+            otherButton.setImage(UIImage(named: "BotaoOutroGenero"), for: .normal)
             isSelected = false
         }
     }
     
     func setImages() {
-        femaleButton.setImage(UIImage(named: "BotãoFeminino"), for: .normal)
-        maleButton.setImage(UIImage(named: "BotãoMasculino"), for: .normal)
-        otherButton.setImage(UIImage(named: "BotãoOutroGênero"), for: .normal)
+        femaleButton.setImage(UIImage(named: "BotaoFeminino"), for: .normal)
+        maleButton.setImage(UIImage(named: "BotaoMasculino"), for: .normal)
+        otherButton.setImage(UIImage(named: "BotaoOutroGenero"), for: .normal)
     }
 }
