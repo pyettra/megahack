@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class AppointmentHistoryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -18,6 +19,8 @@ class AppointmentHistoryViewController: UIViewController, UITableViewDataSource,
     let data4 = ["Oftalmologia - CRM 0000", "Dermatologia - CRM 0000", "Ortopedia - CRM 0000"]
     
     let headerTitles = ["Setembro", "Agosto"]
+    
+    let green = UIColor(red: 0.67, green: 1.51, blue: 0.98, alpha: 1)
     
     
     override func viewDidLoad() {
@@ -35,6 +38,7 @@ class AppointmentHistoryViewController: UIViewController, UITableViewDataSource,
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "appointmentsCell", for: indexPath) as! AppointmentHistoryTableViewCell
+        cell.contentView.backgroundColor = green
         
         if indexPath.section == 0 {
                    cell.dateLabel.text = data1[indexPath.row]
@@ -67,3 +71,4 @@ class AppointmentHistoryViewController: UIViewController, UITableViewDataSource,
     }
 
 }
+
