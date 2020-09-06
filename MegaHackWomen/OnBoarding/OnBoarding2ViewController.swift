@@ -15,43 +15,48 @@ class OnBoarding2ViewController: UIViewController {
     @IBOutlet weak var dislexiaOutlet: UIButton!
     
     @IBAction func textButton(_ sender: Any) {
-        if textOutlet.backgroundColor == nil {
-            textOutlet.backgroundColor = UIColor.yellow
+        if textOutlet.currentImage == UIImage(named: "BotaoPadrão") {
+            textOutlet.setImage(UIImage(named: "BotaoPadrãoPreenchido"), for: .normal)
         } else {
-            textOutlet.backgroundColor = nil
+            textOutlet.setImage(UIImage(named: "BotaoPadrão"), for: .normal)
         }
         
     }
     
     @IBAction func audioButton(_ sender: Any) {
-        if audioOutlet.backgroundColor == nil {
-            audioOutlet.backgroundColor = UIColor.yellow
+        if audioOutlet.currentImage == UIImage(named: "BotaoÁudio") {
+            audioOutlet.setImage(UIImage(named: "BotaoAudioPreenchido"), for: .normal)
         } else {
-            audioOutlet.backgroundColor = nil
+            audioOutlet.setImage(UIImage(named: "BotaoÁudio"), for: .normal)
         }
 
     }
     
     @IBAction func librasButton(_ sender: Any) {
-        if librasOutlet.backgroundColor == nil {
-            librasOutlet.backgroundColor = UIColor.yellow
+        if librasOutlet.currentImage == UIImage(named: "BotaoLibras") {
+            librasOutlet.setImage(UIImage(named: "BotaoLibrasPreenchido"), for: .normal)
         } else {
-            librasOutlet.backgroundColor = nil
+            librasOutlet.setImage(UIImage(named: "BotaoLibras"), for: .normal)
         }
 
     }
     
     @IBAction func dislexiaButton(_ sender: Any) {
-        if dislexiaOutlet.backgroundColor == nil {
-            dislexiaOutlet.backgroundColor = UIColor.yellow
+        if dislexiaOutlet.currentImage == UIImage(named: "BotãoDislexia") {
+            dislexiaOutlet.setImage(UIImage(named: "BotãoDislexiaPreenchido"), for: .normal)
         } else {
-            dislexiaOutlet.backgroundColor = nil
+            dislexiaOutlet.setImage(UIImage(named: "BotãoDislexia"), for: .normal)
         }
 
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textOutlet.setImage(UIImage(named: "BotaoPadrão"), for: .normal)
+        audioOutlet.setImage(UIImage(named: "BotaoÁudio"), for: .normal)
+        librasOutlet.setImage(UIImage(named: "BotaoLibras"), for: .normal)
+        dislexiaOutlet.setImage(UIImage(named: "BotãoDislexia"), for: .normal)
 
     }
 }
