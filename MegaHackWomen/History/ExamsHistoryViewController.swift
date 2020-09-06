@@ -35,16 +35,15 @@ class ExamsHistoryViewController: UIViewController, UITableViewDataSource, UITab
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "examsCell", for: indexPath) as! ExamsHistoryTableViewCell
         
-        cell.dateLabel.text = data1[indexPath.section]
-        cell.dayOfWeekLabel.text = data2[indexPath.section]
-        cell.examLabel.text = data3[indexPath.section]
-        
+        if indexPath.section == 0 {
+            cell.dateLabel.text = data1[indexPath.row]
+            cell.dayOfWeekLabel.text = data2[indexPath.row]
+            cell.examLabel.text = data3[indexPath.row]
+        }
         if indexPath.section == 1 {
-            if indexPath.row == 1 {
-                cell.dateLabel.text = data1[2]
-                cell.dayOfWeekLabel.text = data2[2]
-                cell.examLabel.text = data3[2]
-            }
+            cell.dateLabel.text = data1[indexPath.row+1]
+            cell.dayOfWeekLabel.text = data2[indexPath.row+1]
+            cell.examLabel.text = data3[indexPath.row+1]
         }
         
         return cell

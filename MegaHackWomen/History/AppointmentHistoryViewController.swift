@@ -36,19 +36,18 @@ class AppointmentHistoryViewController: UIViewController, UITableViewDataSource,
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "appointmentsCell", for: indexPath) as! AppointmentHistoryTableViewCell
         
-        cell.dateLabel.text = data1[indexPath.section]
-        cell.dateOfWeekLabel.text = data2[indexPath.section]
-        cell.doctorLabel.text = data3[indexPath.section]
-        cell.specialtyLabel.text = data4[indexPath.section]
-        
-        if indexPath.section == 1 {
-            if indexPath.row == 1 {
-                cell.dateLabel.text = data1[2]
-                cell.dateOfWeekLabel.text = data2[2]
-                cell.doctorLabel.text = data3[2]
-                cell.specialtyLabel.text = data4[2]
-            }
-        }
+        if indexPath.section == 0 {
+                   cell.dateLabel.text = data1[indexPath.row]
+                   cell.dateOfWeekLabel.text = data2[indexPath.row]
+                   cell.doctorLabel.text = data3[indexPath.row]
+                   cell.specialtyLabel.text = data3[indexPath.row]
+               }
+               if indexPath.section == 1 {
+                   cell.dateLabel.text = data1[indexPath.row+1]
+                   cell.dateOfWeekLabel.text = data2[indexPath.row+1]
+                   cell.doctorLabel.text = data3[indexPath.row+1]
+                   cell.specialtyLabel.text = data3[indexPath.row+1]
+               }
         
         return cell
     }
