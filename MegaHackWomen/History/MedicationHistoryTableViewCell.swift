@@ -12,7 +12,7 @@ class MedicationHistoryTableViewCell: UITableViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var dayOfWeekLabel: UILabel!
     @IBOutlet weak var medicineLabel: UILabel!
-    @IBOutlet weak var typeOfMedicineLabel: UILabel!
+    @IBOutlet weak var medicationImage: UIImageView!
     @IBOutlet weak var instructionsLabel: UILabel!
     
     override func awakeFromNib() {
