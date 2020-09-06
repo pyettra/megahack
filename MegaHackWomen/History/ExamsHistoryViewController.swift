@@ -11,7 +11,9 @@ import UIKit
 class ExamsHistoryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
     
-    let data = [["12 de agosto - 13:30", "19 de agosto - 10:30", "19 de agosto - 8:30"], ["Quarta-Feira", "Sexta-Feira", "Sexta-Feira"], ["Raio X - Joelho direito", "Exame de sangue", "Exame de urina"]]
+    let data1 = ["12 de agosto - 13:30", "19 de agosto - 10:30", "19 de agosto - 8:30"]
+    let data2 = ["Quarta-Feira", "Sexta-Feira", "Sexta-Feira"]
+    let data3 = ["Raio X - Joelho direito", "Exame de sangue", "Exame de urina"]
     let headerTitles = ["Agosto", "Julho"]
     
     override func viewDidLoad() {
@@ -33,9 +35,17 @@ class ExamsHistoryViewController: UIViewController, UITableViewDataSource, UITab
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "examsCell", for: indexPath) as! ExamsHistoryTableViewCell
         
-        cell.dateLabel.text = data[indexPath.row][indexPath.section]
-        cell.dayOfWeekLabel.text = data[indexPath.row][indexPath.section]
-        cell.examLabel.text = data[indexPath.row][indexPath.section]
+        cell.dateLabel.text = data1[indexPath.section]
+        cell.dayOfWeekLabel.text = data2[indexPath.section]
+        cell.examLabel.text = data3[indexPath.section]
+        
+        if indexPath.section == 1 {
+            if indexPath.row == 1 {
+                cell.dateLabel.text = data1[2]
+                cell.dayOfWeekLabel.text = data2[2]
+                cell.examLabel.text = data3[2]
+            }
+        }
         
         return cell
     }
