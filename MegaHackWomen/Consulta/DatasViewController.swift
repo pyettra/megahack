@@ -14,7 +14,6 @@ class DatasViewController: UIViewController {
     var profissionalSelecionado = 0
     
     func refreshInterface() {
-        let datas = Model.instance.profissionais[profissionalSelecionado].datas
         
         
     }
