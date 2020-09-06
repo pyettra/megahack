@@ -39,6 +39,8 @@
 		BC4E36BC25043A3100A4D9F0 /* AppointmentHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36BB25043A3100A4D9F0 /* AppointmentHistoryTableViewCell.swift */; };
 		BC4E36BE2504535000A4D9F0 /* ExamsHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36BD2504535000A4D9F0 /* ExamsHistoryViewController.swift */; };
 		BC4E36C0250456C300A4D9F0 /* ExamsHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36BF250456C300A4D9F0 /* ExamsHistoryTableViewCell.swift */; };
+		BC4E36C225045E0400A4D9F0 /* MedicationHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36C125045E0300A4D9F0 /* MedicationHistoryViewController.swift */; };
+		BC4E36C425045F9E00A4D9F0 /* MedicationHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E36C325045F9E00A4D9F0 /* MedicationHistoryTableViewCell.swift */; };
 		DD03420E6B8151A8016D4FB7 /* Pods_MegaHackWomen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C0C8B4CA012FBD307FE264 /* Pods_MegaHackWomen.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,8 @@
 		BC4E36BB25043A3100A4D9F0 /* AppointmentHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		BC4E36BD2504535000A4D9F0 /* ExamsHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsHistoryViewController.swift; sourceTree = "<group>"; };
 		BC4E36BF250456C300A4D9F0 /* ExamsHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamsHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		BC4E36C125045E0300A4D9F0 /* MedicationHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationHistoryViewController.swift; sourceTree = "<group>"; };
+		BC4E36C325045F9E00A4D9F0 /* MedicationHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationHistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,8 @@
 				BC4E36BB25043A3100A4D9F0 /* AppointmentHistoryTableViewCell.swift */,
 				BC4E36BD2504535000A4D9F0 /* ExamsHistoryViewController.swift */,
 				BC4E36BF250456C300A4D9F0 /* ExamsHistoryTableViewCell.swift */,
+				BC4E36C125045E0300A4D9F0 /* MedicationHistoryViewController.swift */,
+				BC4E36C325045F9E00A4D9F0 /* MedicationHistoryTableViewCell.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -325,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CD209C024FF1E730040613A /* JoinViewController.swift in Sources */,
+				BC4E36C425045F9E00A4D9F0 /* MedicationHistoryTableViewCell.swift in Sources */,
 				BC4E36982501D39800A4D9F0 /* RatingAppViewController.swift in Sources */,
 				BC4E36AA2503F0DA00A4D9F0 /* OnBoarding6ViewController.swift in Sources */,
 				BC4E36962501C01E00A4D9F0 /* RatingDoctorViewController.swift in Sources */,
@@ -340,6 +347,7 @@
 				BC4E36BE2504535000A4D9F0 /* ExamsHistoryViewController.swift in Sources */,
 				6CD209BC24FF1E730040613A /* AppDelegate.swift in Sources */,
 				BC4E36682500546C00A4D9F0 /* ClientViewControllerHandlers.swift in Sources */,
+				BC4E36C225045E0400A4D9F0 /* MedicationHistoryViewController.swift in Sources */,
 				BC4E36B22503FCF400A4D9F0 /* OnBoarding10ViewController.swift in Sources */,
 				BC4E3664250053D000A4D9F0 /* ClientViewController.swift in Sources */,
 				BC4E36B02503FB1600A4D9F0 /* OnBoarding9ViewController.swift in Sources */,
