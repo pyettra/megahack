@@ -730,10 +730,10 @@
             </objects>
             <point key="canvasLocation" x="2253.6231884057975" y="2364.5089285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Entry Home View Controller-->
         <scene sceneID="2Ha-yK-g59">
             <objects>
-                <viewController id="dcP-zY-9DO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="dcP-zY-9DO" customClass="EntryHomeViewController" customModule="MegaHackWomen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mmq-jG-a10">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
