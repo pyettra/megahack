@@ -27,11 +27,11 @@ class OnBoarding1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         label1.adjustsFontForContentSizeCategory = true
         label2.font = UIFont.preferredFont(forTextStyle: .body)
         label2.adjustsFontForContentSizeCategory = true
-        label3.font = UIFont.preferredFont(forTextStyle: .body)
+        label3.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         label3.adjustsFontForContentSizeCategory = true
 
     }

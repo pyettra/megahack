@@ -33,6 +33,9 @@ class OnBoarding3ViewController: UIViewController {
         isSelected = false
         
         setImages()
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        label1.adjustsFontForContentSizeCategory = true
 
     }
     
@@ -78,6 +81,7 @@ class OnBoarding3ViewController: UIViewController {
         femaleButton.setImage(UIImage(named: "BotaoFeminino"), for: .normal)
         maleButton.setImage(UIImage(named: "BotaoMasculino"), for: .normal)
         otherButton.setImage(UIImage(named: "BotaoOutroGenero"), for: .normal)
+
     }
     
 }

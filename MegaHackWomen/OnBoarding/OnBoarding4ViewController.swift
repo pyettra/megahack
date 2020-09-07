@@ -16,12 +16,13 @@ class OnBoarding4ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        label1.adjustsFontForContentSizeCategory = true
+        
         //keyboard dismiss tapping anywhere
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
         
-        label1.font = UIFont.preferredFont(forTextStyle: .body)
-        label1.adjustsFontForContentSizeCategory = true
     }
 }

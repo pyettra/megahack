@@ -74,7 +74,7 @@ class OnBoarding2ViewController: UIViewController {
         librasOutlet.setImage(UIImage(named: "BotaoLibras"), for: .normal)
         dislexiaOutlet.setImage(UIImage(named: "BotaoDislexia"), for: .normal)
         
-        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         label1.adjustsFontForContentSizeCategory = true
         
 //        let utterance1 = AVSpeechUtterance(string: "Como quer que o aplicativo se comunique com você? ")
