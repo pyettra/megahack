@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding8ViewController: UIViewController {
     @IBOutlet weak var aPosCircle: UIButton!
@@ -17,6 +18,7 @@ class OnBoarding8ViewController: UIViewController {
     @IBOutlet weak var oNegCircle: UIButton!
     @IBOutlet weak var abPosCircle: UIButton!
     @IBOutlet weak var abNegCircle: UIButton!
+    @IBOutlet weak var label1: UILabel!
     
     var isSelected: Bool!
     
@@ -144,6 +146,9 @@ class OnBoarding8ViewController: UIViewController {
         super.viewDidLoad()
         isSelected = false
         setCircle()
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
     }
 
 }

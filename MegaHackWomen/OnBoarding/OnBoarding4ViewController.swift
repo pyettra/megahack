@@ -12,12 +12,16 @@ class OnBoarding4ViewController: UIViewController {
     
     @IBOutlet weak var weightTextField: UITextField!
     @IBOutlet weak var heightNumberTextField: UITextField!
-
+    @IBOutlet weak var label1: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //keyboard dismiss tapping anywhere
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
     }
 }

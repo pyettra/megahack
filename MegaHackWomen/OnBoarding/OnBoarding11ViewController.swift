@@ -7,16 +7,18 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding11ViewController: UIViewController {
+    @IBOutlet weak var label1: UILabel!
     @IBAction func startButton(_ sender: Any) {
         //chamar o app
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
     }
     
 

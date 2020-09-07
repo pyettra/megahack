@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding5ViewController: UIViewController {
     @IBOutlet weak var visualCheckBox: UIButton!
@@ -14,6 +15,8 @@ class OnBoarding5ViewController: UIViewController {
     @IBOutlet weak var physicalCheckBox: UIButton!
     @IBOutlet weak var intelectualCheckBox: UIButton!
     @IBOutlet weak var noneCheckBox: UIButton!
+    @IBOutlet weak var label1: UILabel!
+    
     
     
  
@@ -55,13 +58,14 @@ class OnBoarding5ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         visualCheckBox.setImage(UIImage(named: "Checkbox"), for: .normal)
         hearingCheckBox.setImage(UIImage(named: "Checkbox"), for: .normal)
         physicalCheckBox.setImage(UIImage(named: "Checkbox"), for: .normal)
         intelectualCheckBox.setImage(UIImage(named: "Checkbox"), for: .normal)
         noneCheckBox.setImage(UIImage(named: "Checkbox"), for: .normal)
-        
-
     }
 
 }

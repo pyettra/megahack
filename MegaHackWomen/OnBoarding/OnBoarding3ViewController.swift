@@ -16,6 +16,7 @@ class OnBoarding3ViewController: UIViewController {
     @IBOutlet weak var femaleButton: UIButton!
     @IBOutlet weak var maleButton: UIButton!
     @IBOutlet weak var otherButton: UIButton!
+    @IBOutlet weak var label1: UILabel!
     
     var isSelected: Bool!
     
@@ -25,6 +26,9 @@ class OnBoarding3ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
         
         isSelected = false
         

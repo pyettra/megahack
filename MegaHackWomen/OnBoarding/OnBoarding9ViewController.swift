@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding9ViewController: UIViewController {
     
@@ -15,7 +16,8 @@ class OnBoarding9ViewController: UIViewController {
        @IBOutlet weak var allergy3CheckBox: UIButton!
        @IBOutlet weak var allergy4CheckBox: UIButton!
        @IBOutlet weak var allergy5CheckBox: UIButton!
-       
+    @IBOutlet weak var label1: UILabel!
+    
        
     
        @IBAction func allergy1Button(_ sender: Any) {
@@ -67,5 +69,8 @@ class OnBoarding9ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
     }
 }

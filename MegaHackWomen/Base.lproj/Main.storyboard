@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PWZ-5n-rNQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wy3-YW-1bm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -1356,29 +1356,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Olá! Vamo arrumar tudo?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEp-gm-hji">
-                                <rect key="frame" x="25" y="132" width="258" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Olá! Vamo arrumar tudo?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEp-gm-hji">
+                                <rect key="frame" x="25" y="117" width="369" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Você poderá mudar suas configurações a qualquer momento" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxl-WT-lqk">
-                                <rect key="frame" x="25" y="165" width="374" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Como gostaria de usar o app?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9v-IE-iOD">
-                                <rect key="frame" x="25" y="249" width="320" height="84"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Como gostaria de usar o app?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9v-IE-iOD">
+                                <rect key="frame" x="25" y="285" width="320" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmj-gy-5y7">
-                                <rect key="frame" x="44" y="355" width="154" height="106"/>
+                                <rect key="frame" x="44" y="411" width="154" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoComandodeVozPreenchido"/>
                                 <connections>
@@ -1387,7 +1380,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhW-bP-ZrT">
-                                <rect key="frame" x="216" y="355" width="154" height="106"/>
+                                <rect key="frame" x="216" y="411" width="154" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoToquePreenchido"/>
                                 <connections>
@@ -1395,11 +1388,21 @@
                                     <segue destination="0bz-6O-iXq" kind="presentation" id="a9e-w2-V8v"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Você poderá mudar suas configurações a qualquer momento" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxl-WT-lqk">
+                                <rect key="frame" x="25" y="182" width="374" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lT7-oC-RLp"/>
                     </view>
                     <connections>
+                        <outlet property="label1" destination="oEp-gm-hji" id="Rmf-7Q-eTl"/>
+                        <outlet property="label2" destination="jxl-WT-lqk" id="9yo-is-5wp"/>
+                        <outlet property="label3" destination="v9v-IE-iOD" id="ev8-EZ-Vv9"/>
                         <outlet property="touchOutlet" destination="fhW-bP-ZrT" id="7h9-to-Up2"/>
                         <outlet property="voiceControlOutlet" destination="mmj-gy-5y7" id="6mc-NV-1pZ"/>
                     </connections>
@@ -1417,14 +1420,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Como quer que o aplicativo se comunique com você?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBd-9R-8ch">
-                                <rect key="frame" x="25" y="132" width="374" height="63"/>
+                                <rect key="frame" x="25" y="75" width="374" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xq-RC-VG6">
+                                <rect key="frame" x="140" y="750" width="135" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="BotaoProximo"/>
+                                <connections>
+                                    <segue destination="jkk-3P-XZz" kind="presentation" id="I7P-jO-NEz"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqP-k6-OMR">
-                                <rect key="frame" x="56" y="229" width="144" height="69"/>
+                                <rect key="frame" x="51" y="280" width="144" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoPadrão"/>
                                 <connections>
@@ -1432,7 +1443,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP5-R5-sox">
-                                <rect key="frame" x="56" y="330" width="144" height="69"/>
+                                <rect key="frame" x="51" y="381" width="144" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoÁudio"/>
                                 <connections>
@@ -1440,7 +1451,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIY-qY-HY0">
-                                <rect key="frame" x="225" y="229" width="144" height="69"/>
+                                <rect key="frame" x="220" y="280" width="144" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoLibras"/>
                                 <connections>
@@ -1448,19 +1459,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scJ-aQ-wbD">
-                                <rect key="frame" x="225" y="330" width="144" height="69"/>
+                                <rect key="frame" x="220" y="381" width="144" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotãoDislexia"/>
                                 <connections>
                                     <action selector="dislexiaButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="4h9-Sw-vQi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xq-RC-VG6">
-                                <rect key="frame" x="140" y="750" width="135" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoProximo"/>
-                                <connections>
-                                    <segue destination="jkk-3P-XZz" kind="presentation" id="I7P-jO-NEz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1470,6 +1473,7 @@
                     <connections>
                         <outlet property="audioOutlet" destination="oP5-R5-sox" id="qdo-UR-y9y"/>
                         <outlet property="dislexiaOutlet" destination="scJ-aQ-wbD" id="iQt-q5-uXk"/>
+                        <outlet property="label1" destination="YBd-9R-8ch" id="d8u-K1-Yme"/>
                         <outlet property="librasOutlet" destination="IIY-qY-HY0" id="C8l-2z-0aB"/>
                         <outlet property="textOutlet" destination="GqP-k6-OMR" id="V0X-UJ-klL"/>
                     </connections>
@@ -1487,7 +1491,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agora preencha algumas informações pessoais" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNS-ac-ZJ8">
-                                <rect key="frame" x="25" y="132" width="374" height="62"/>
+                                <rect key="frame" x="25" y="81" width="374" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -1565,6 +1569,7 @@
                         <outlet property="emergencyContactNameTextField" destination="A1S-E4-CJv" id="4zB-vD-XG6"/>
                         <outlet property="emergencyContactTextField" destination="nDf-RC-l6h" id="Wyo-Fc-liy"/>
                         <outlet property="femaleButton" destination="JdL-9d-Ng6" id="B1E-UH-0qd"/>
+                        <outlet property="label1" destination="eNS-ac-ZJ8" id="r1D-Hx-Gce"/>
                         <outlet property="maleButton" destination="DGB-I2-Fip" id="FEd-mN-UwV"/>
                         <outlet property="nameTextField" destination="VX2-Rg-h0O" id="jj4-Rb-WNK"/>
                         <outlet property="otherButton" destination="UXd-eT-3ma" id="HgP-fF-1gx"/>
@@ -1584,7 +1589,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adicione seu peso e altura" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LA7-Lz-t7c">
-                                <rect key="frame" x="25" y="132" width="271" height="29"/>
+                                <rect key="frame" x="25" y="70" width="369" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -1617,6 +1622,7 @@
                     </view>
                     <connections>
                         <outlet property="heightNumberTextField" destination="rZB-IF-KRy" id="drw-Br-Lnx"/>
+                        <outlet property="label1" destination="LA7-Lz-t7c" id="rXo-ts-tIH"/>
                         <outlet property="weightTextField" destination="1zQ-57-cEi" id="d4o-EP-riu"/>
                     </connections>
                 </viewController>
@@ -1683,9 +1689,6 @@
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Próximo" image="BotaoProximo"/>
-                                <connections>
-                                    <segue destination="PrX-yY-t6z" kind="presentation" id="Dom-9R-gwr"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visual" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFG-lH-Azy">
                                 <rect key="frame" x="89" y="229" width="46" height="21"/>
@@ -1751,7 +1754,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gostaria de dar mais detalhes sobre sua deficiência?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iu-cd-DqI">
-                                <rect key="frame" x="25" y="132" width="374" height="66"/>
+                                <rect key="frame" x="25" y="44" width="374" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -1777,7 +1780,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ATD-bL-5r8"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dIm-9a-SOv"/>
                     <connections>
+                        <outlet property="label1" destination="3iu-cd-DqI" id="8Qy-ov-Nn0"/>
                         <outlet property="textView" destination="IKu-OP-OFq" id="rc8-74-bVr"/>
                     </connections>
                 </viewController>
@@ -1794,7 +1799,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Você toma algum medicamento de uso contínuo?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAi-qZ-IsT">
-                                <rect key="frame" x="25" y="132" width="374" height="63"/>
+                                <rect key="frame" x="25" y="44" width="374" height="185"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -1893,6 +1898,7 @@
                         <viewLayoutGuide key="safeArea" id="dkC-b7-tWt"/>
                     </view>
                     <connections>
+                        <outlet property="label1" destination="JAi-qZ-IsT" id="e5y-5F-Dn5"/>
                         <outlet property="medication1CheckBox" destination="WyK-Zl-rcg" id="ail-rU-1NK"/>
                         <outlet property="medication2CheckBox" destination="ohV-gR-aSz" id="jtL-1D-xoW"/>
                         <outlet property="medication3CheckBox" destination="HAS-aJ-Oud" id="c6t-Sp-b8n"/>
@@ -1913,7 +1919,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qual seu tipo sanguíneo?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCR-ll-Gbn">
-                                <rect key="frame" x="25" y="132" width="261" height="29"/>
+                                <rect key="frame" x="25" y="44" width="369" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -2003,6 +2009,7 @@
                         <outlet property="abPosCircle" destination="uq0-p4-rnM" id="ptn-wu-NDv"/>
                         <outlet property="bNegCircle" destination="RQw-Cx-Kyj" id="Jen-Lb-4Td"/>
                         <outlet property="bPosCircle" destination="jKV-36-9qF" id="Y0r-iy-fAT"/>
+                        <outlet property="label1" destination="bCR-ll-Gbn" id="3wi-49-XVZ"/>
                         <outlet property="oNegCircle" destination="6OY-A3-53c" id="Ibw-BH-lGe"/>
                         <outlet property="oPosCircle" destination="Iho-ww-nuY" id="AKg-9q-38z"/>
                     </connections>
@@ -2028,7 +2035,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Possui algum tipo de alergia?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXk-ga-k4C">
-                                <rect key="frame" x="25" y="132" width="374" height="42"/>
+                                <rect key="frame" x="25" y="44" width="374" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -2124,6 +2131,7 @@
                         <outlet property="allergy3CheckBox" destination="zzI-ju-etD" id="p7a-si-34b"/>
                         <outlet property="allergy4CheckBox" destination="Mu0-v1-HQu" id="nRH-WO-sfn"/>
                         <outlet property="allergy5CheckBox" destination="onM-kA-ciV" id="DhH-CZ-5sl"/>
+                        <outlet property="label1" destination="WXk-ga-k4C" id="7sk-8f-Cfw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8K-f9-3xq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2188,7 +2196,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pra finalizar, você pratica alguma atividade física?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKf-b1-dZm">
-                                <rect key="frame" x="25" y="132" width="374" height="59"/>
+                                <rect key="frame" x="25" y="44" width="374" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -2286,6 +2294,7 @@
                         <outlet property="exercise6" destination="iEt-Q0-yC7" id="PZH-V6-1cO"/>
                         <outlet property="exercise7" destination="yCs-r3-L75" id="If4-Wv-AL1"/>
                         <outlet property="exercise8" destination="diI-AR-xrR" id="9mn-s6-T7I"/>
+                        <outlet property="label1" destination="eKf-b1-dZm" id="bkc-R9-9Uu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xCs-ZI-RSw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2301,7 +2310,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tudo pronto!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yax-lS-d5h">
-                                <rect key="frame" x="66" y="356" width="283" height="64"/>
+                                <rect key="frame" x="66" y="194" width="283" height="362"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="53"/>
                                 <nil key="textColor"/>
@@ -2319,10 +2328,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="nr2-lR-iQV"/>
                     </view>
+                    <connections>
+                        <outlet property="label1" destination="yax-lS-d5h" id="8pJ-ib-IC8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27M-Dt-dWA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7365" y="-666"/>
+            <point key="canvasLocation" x="7363.7681159420299" y="-666.29464285714278"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="46d-q0-aDX">
@@ -2496,7 +2508,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gostaria de declarar alguma deficiência?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMn-4V-lSS">
-                                <rect key="frame" x="25" y="132" width="374" height="59"/>
+                                <rect key="frame" x="25" y="55" width="374" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -2541,6 +2553,9 @@
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoProximo"/>
+                                <connections>
+                                    <segue destination="PrX-yY-t6z" kind="presentation" id="Yvk-WH-j8u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIf-Ai-Mug">
                                 <rect key="frame" x="48" y="239" width="34" height="34"/>
@@ -2589,6 +2604,7 @@
                     <connections>
                         <outlet property="hearingCheckBox" destination="Pyw-IS-TY8" id="0So-GF-Xhg"/>
                         <outlet property="intelectualCheckBox" destination="FjC-TP-4Mu" id="Ngs-JM-VIn"/>
+                        <outlet property="label1" destination="dMn-4V-lSS" id="jt9-gl-f5h"/>
                         <outlet property="noneCheckBox" destination="13W-CD-9T8" id="zSK-2Q-OlZ"/>
                         <outlet property="physicalCheckBox" destination="8mR-oc-8QE" id="hSY-qZ-d4c"/>
                         <outlet property="visualCheckBox" destination="OIf-Ai-Mug" id="PJo-WE-3hq"/>
@@ -2596,7 +2612,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iLO-sx-vyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3061" y="-654"/>
+            <point key="canvasLocation" x="3060.8695652173915" y="-654.24107142857144"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

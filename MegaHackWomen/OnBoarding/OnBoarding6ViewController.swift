@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding6ViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var label1: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +19,9 @@ class OnBoarding6ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
 
     }
 }

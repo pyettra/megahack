@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding7ViewController: UIViewController {
        @IBOutlet weak var medication1CheckBox: UIButton!
@@ -14,7 +15,8 @@ class OnBoarding7ViewController: UIViewController {
        @IBOutlet weak var medication3CheckBox: UIButton!
        @IBOutlet weak var medication4CheckBox: UIButton!
        @IBOutlet weak var medication5CheckBox: UIButton!
-       
+       @IBOutlet weak var label1: UILabel!
+    
        
     
        @IBAction func medication1Button(_ sender: Any) {
@@ -66,5 +68,8 @@ class OnBoarding7ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
     }
 }

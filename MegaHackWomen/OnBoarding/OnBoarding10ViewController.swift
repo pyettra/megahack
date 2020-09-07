@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding10ViewController: UIViewController {
     @IBOutlet weak var exercise1: UIButton!
@@ -17,7 +18,8 @@ class OnBoarding10ViewController: UIViewController {
     @IBOutlet weak var exercise6: UIButton!
     @IBOutlet weak var exercise7: UIButton!
     @IBOutlet weak var exercise8: UIButton!
-
+    @IBOutlet weak var label1: UILabel!
+    
 
     @IBAction func exercise1Button(_ sender: Any) {
         if exercise1.currentImage == UIImage(named: "Checkbox") {
@@ -94,6 +96,9 @@ class OnBoarding10ViewController: UIViewController {
         exercise6.setImage(UIImage(named: "Checkbox"), for: .normal)
         exercise7.setImage(UIImage(named: "Checkbox"), for: .normal)
         exercise8.setImage(UIImage(named: "Checkbox"), for: .normal)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .body)
+        label1.adjustsFontForContentSizeCategory = true
 
     }
 
