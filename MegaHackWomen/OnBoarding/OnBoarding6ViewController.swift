@@ -10,6 +10,7 @@ import UIKit
 
 class OnBoarding6ViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var label1: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
