@@ -19,6 +19,7 @@ class OnBoarding2ViewController: UIViewController {
     @IBOutlet weak var label3: UILabel!
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
+    @IBOutlet weak var label6: UILabel!
     
     @IBAction func textButton(_ sender: Any) {
         if textOutlet.currentImage == UIImage(named: "BotaoContorno") {
@@ -95,6 +96,9 @@ class OnBoarding2ViewController: UIViewController {
         
         label5.font = UIFont.preferredFont(forTextStyle: .body)
         label5.adjustsFontForContentSizeCategory = true
+        
+        label6.font = UIFont.preferredFont(forTextStyle: .body)
+        label6.adjustsFontForContentSizeCategory = true
         
         let utterance1 = AVSpeechUtterance(string: "Como quer que o aplicativo se comunique com você? ")
         utterance1.voice = AVSpeechSynthesisVoice(language: "pt-BR")

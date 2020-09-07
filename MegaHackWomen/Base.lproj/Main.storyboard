@@ -70,6 +70,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                            <color key="value" red="0.26389500500000002" green="0.59515744449999997" blue="0.38428205250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="dcP-zY-9DO" kind="relationship" relationship="rootViewController" id="IDa-zd-TBR"/>
                     </connections>
@@ -910,7 +915,7 @@ consulta</string>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome da Categoria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JB6-OP-Lkr">
-                                                            <rect key="frame" x="46" y="31" width="320" height="28"/>
+                                                            <rect key="frame" x="46" y="31" width="320" height="24"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="320" id="Yrf-KF-rvA"/>
                                                             </constraints>
@@ -2446,6 +2451,11 @@ consulta</string>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.29144543410000001" green="0.6339133978" blue="0.41476261619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.26389500500000002" green="0.59515744449999997" blue="0.38428205250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="HGE-FL-dRu" kind="relationship" relationship="viewControllers" id="UtJ-je-7Oa"/>
@@ -2798,7 +2808,7 @@ consulta</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xq-RC-VG6">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoProximo"/>
+                                <state key="normal" image="BotaoProximoRegulavel"/>
                                 <connections>
                                     <segue destination="jkk-3P-XZz" kind="presentation" id="I7P-jO-NEz"/>
                                 </connections>
@@ -2831,6 +2841,13 @@ consulta</string>
                                 <color key="textColor" red="0.29144543410000001" green="0.6339133978" blue="0.41476261619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Próximo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USk-1U-Had">
+                                <rect key="frame" x="140" y="750" width="135" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1Xw-ul-7VG"/>
@@ -2843,6 +2860,7 @@ consulta</string>
                         <outlet property="label3" destination="MuX-Jd-FBv" id="MP9-gU-f53"/>
                         <outlet property="label4" destination="a1p-4O-QJM" id="wI1-N8-lVz"/>
                         <outlet property="label5" destination="u3S-Rc-4BW" id="cvZ-Be-xq2"/>
+                        <outlet property="label6" destination="USk-1U-Had" id="eau-cl-BHe"/>
                         <outlet property="librasOutlet" destination="IIY-qY-HY0" id="C8l-2z-0aB"/>
                         <outlet property="textOutlet" destination="GqP-k6-OMR" id="V0X-UJ-klL"/>
                     </connections>
@@ -3818,7 +3836,7 @@ consulta</string>
                                     <segue destination="nZo-iV-47b" kind="show" id="rum-Nc-xpf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como você avalia a qualidade  da vídeo chamada?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfE-cc-l73">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como você avalia a qualidade  do chat?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfE-cc-l73">
                                 <rect key="frame" x="70.5" y="204" width="273" height="36"/>
                                 <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="18"/>
                                 <nil key="textColor"/>
@@ -4019,6 +4037,7 @@ consulta</string>
         <segue reference="Kiv-mD-SmM"/>
         <segue reference="u2Z-O0-cru"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.26389500500000002" green="0.59515744449999997" blue="0.38428205250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="BotaoA+" width="440" height="232"/>
         <image name="BotaoA-" width="440" height="232"/>
@@ -4041,6 +4060,7 @@ consulta</string>
         <image name="BotaoPaginaInicial" width="564" height="248"/>
         <image name="BotaoProximo" width="540" height="192"/>
         <image name="BotaoProximo2" width="564" height="248"/>
+        <image name="BotaoProximoRegulavel" width="540" height="192"/>
         <image name="BotaoReceitas" width="980" height="280"/>
         <image name="BotaoSim" width="564" height="248"/>
         <image name="BotaoVerde" width="616" height="424"/>
