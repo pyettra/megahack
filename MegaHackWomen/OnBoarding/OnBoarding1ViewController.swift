@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class OnBoarding1ViewController: UIViewController {
     
@@ -33,6 +34,13 @@ class OnBoarding1ViewController: UIViewController {
         label2.adjustsFontForContentSizeCategory = true
         label3.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         label3.adjustsFontForContentSizeCategory = true
+        
+        
+        let utterance1 = AVSpeechUtterance(string: "Olá! Vamos arrumar tudo? Você poderá mudar suas configurações a qualquer momento. Como gostaria de usar o app? O botão da esquerda seleciona comando de voz e o da direita toque")
+        utterance1.voice = AVSpeechSynthesisVoice(language: "pt-BR")
+        
+        let synthesizer = AVSpeechSynthesizer()
+        synthesizer.speak(utterance1)
 
     }
     
