@@ -13,7 +13,6 @@ class DiagnosticHistoryTableViewCell: UITableViewCell {
     @IBOutlet weak var dayOfWeekLabel: UILabel!
     @IBOutlet weak var ilnessLabel: UILabel!
     @IBOutlet weak var diagnoseLabel: UILabel!
-    @IBOutlet weak var doctorLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

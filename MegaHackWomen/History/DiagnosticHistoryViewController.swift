@@ -31,8 +31,7 @@ class DiagnosticHistoryViewController: UIViewController, UITableViewDataSource, 
         cell.dateLabel.text = "14 de setembro"
         cell.dayOfWeekLabel.text = "Quarta-Feira"
         cell.ilnessLabel.text = "Bursite - joelho direito"
-        cell.diagnoseLabel.text = "Diagnóstico feito por:"
-        cell.doctorLabel.text = "Dr Fulano Ciclano"
+        cell.diagnoseLabel.text = "Diagnóstico feito por: Raíssa Pascoal"
         
 
         

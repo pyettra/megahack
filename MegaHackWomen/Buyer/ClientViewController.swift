@@ -12,6 +12,7 @@ import StreamChatClient
 
 class ClientViewController: UIViewController {
     
+    
     @IBAction func chatButton(_ sender: Any) {
         let buttonEndAppointment = UIBarButtonItem(title: "End", style: .plain, target: self, action: #selector(ratingAppointment))
         
@@ -26,24 +27,38 @@ class ClientViewController: UIViewController {
         
         let chatVC = ChatViewController()
         chatVC.presenter = .init(channel: channel)
-        chatVC.title = "Messages"
+        chatVC.title = "Dra. Sabrina Moraes"
         chatVC.navigationItem.rightBarButtonItem = buttonEndAppointment
         
         let navigation = UINavigationController(rootViewController: chatVC)
 
-        
+        navigation.modalPresentationStyle = .fullScreen
         self.present(navigation, animated: true, completion: {
             
         })
     }
     
     @objc func ratingAppointment() {
-        print("terminou a consulta - chamar a tela de rating")
+        //terminou consulta chamar rating
+        
+        let topVC = topMostController()
+        let targetStoryboard =  UIStoryboard(name: "Main", bundle: nil)
+        let vc = targetStoryboard.instantiateViewController(withIdentifier: "Rating") as! EndAppointmentViewController
+        vc.modalPresentationStyle = .fullScreen
+        topVC.present(vc, animated: true, completion: nil)
     }
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    func topMostController() -> UIViewController {
+    var topController: UIViewController = UIApplication.shared.keyWindow!.rootViewController!
+        while (topController.presentedViewController != nil) {
+            topController = topController.presentedViewController!
+        }
+        return topController
     }
 
 }
