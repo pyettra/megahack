@@ -31,6 +31,8 @@ class ExameLaboratorioViewController: UIViewController, UITableViewDelegate, UIT
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.backBarButtonItem = UIBarButtonItem(
+                   title: "", style: .plain, target: nil, action: nil)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

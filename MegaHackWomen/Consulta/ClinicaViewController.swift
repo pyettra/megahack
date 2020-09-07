@@ -71,5 +71,7 @@ class ClinicaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(clinicaSelecionada)
+        navigationItem.backBarButtonItem = UIBarButtonItem(
+               title: "", style: .plain, target: nil, action: nil)
     }
 }

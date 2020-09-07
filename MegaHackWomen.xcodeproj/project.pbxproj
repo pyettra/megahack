@@ -12,6 +12,21 @@
 		6C022CA32505B4BC00D1FF9D /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C022CA22505B4BC00D1FF9D /* PerfilViewController.swift */; };
 		6C022CA52505B56A00D1FF9D /* MinhaSaudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C022CA42505B56A00D1FF9D /* MinhaSaudeViewController.swift */; };
 		6C022CA72505B58300D1FF9D /* MeusMedicamentosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C022CA62505B58300D1FF9D /* MeusMedicamentosViewController.swift */; };
+		6C49425925069F0B00F4CF70 /* FiltrarProfissionaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C49425825069F0B00F4CF70 /* FiltrarProfissionaisViewController.swift */; };
+		6C4942692506A51700F4CF70 /* Gordita Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C49425B2506A51700F4CF70 /* Gordita Bold Italic.otf */; };
+		6C49426A2506A51700F4CF70 /* Gordita Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C49425C2506A51700F4CF70 /* Gordita Thin.otf */; };
+		6C49426B2506A51700F4CF70 /* Gordita Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C49425D2506A51700F4CF70 /* Gordita Medium Italic.otf */; };
+		6C49426C2506A51700F4CF70 /* Gordita Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C49425E2506A51700F4CF70 /* Gordita Bold.otf */; };
+		6C49426D2506A51700F4CF70 /* Gordita Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C49425F2506A51700F4CF70 /* Gordita Light Italic.otf */; };
+		6C49426E2506A51700F4CF70 /* Gordita Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942602506A51700F4CF70 /* Gordita Black.otf */; };
+		6C49426F2506A51700F4CF70 /* Gordita Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942612506A51700F4CF70 /* Gordita Regular.otf */; };
+		6C4942702506A51700F4CF70 /* Gordita Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942622506A51700F4CF70 /* Gordita Thin Italic.otf */; };
+		6C4942712506A51700F4CF70 /* Gordita Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942632506A51700F4CF70 /* Gordita Light.otf */; };
+		6C4942722506A51700F4CF70 /* Gordita Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942642506A51700F4CF70 /* Gordita Medium.otf */; };
+		6C4942732506A51700F4CF70 /* Gordita Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942652506A51700F4CF70 /* Gordita Ultra.otf */; };
+		6C4942742506A51700F4CF70 /* Gordita Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942662506A51700F4CF70 /* Gordita Black Italic.otf */; };
+		6C4942752506A51700F4CF70 /* Gordita Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942672506A51700F4CF70 /* Gordita Regular Italic.otf */; };
+		6C4942762506A51700F4CF70 /* Gordita Ultra Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4942682506A51700F4CF70 /* Gordita Ultra Italic.otf */; };
 		6CB4A53325055564008C1FCF /* ExameCategoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4A53225055564008C1FCF /* ExameCategoriaViewController.swift */; };
 		6CB4A5352505557E008C1FCF /* ExameCategoriaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4A5342505557E008C1FCF /* ExameCategoriaTableViewCell.swift */; };
 		6CB4A5372505566F008C1FCF /* ExameLaboratorioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4A5362505566F008C1FCF /* ExameLaboratorioViewController.swift */; };
@@ -78,6 +93,21 @@
 		6C022CA22505B4BC00D1FF9D /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		6C022CA42505B56A00D1FF9D /* MinhaSaudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaSaudeViewController.swift; sourceTree = "<group>"; };
 		6C022CA62505B58300D1FF9D /* MeusMedicamentosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeusMedicamentosViewController.swift; sourceTree = "<group>"; };
+		6C49425825069F0B00F4CF70 /* FiltrarProfissionaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltrarProfissionaisViewController.swift; sourceTree = "<group>"; };
+		6C49425B2506A51700F4CF70 /* Gordita Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Bold Italic.otf"; sourceTree = "<group>"; };
+		6C49425C2506A51700F4CF70 /* Gordita Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Thin.otf"; sourceTree = "<group>"; };
+		6C49425D2506A51700F4CF70 /* Gordita Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Medium Italic.otf"; sourceTree = "<group>"; };
+		6C49425E2506A51700F4CF70 /* Gordita Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Bold.otf"; sourceTree = "<group>"; };
+		6C49425F2506A51700F4CF70 /* Gordita Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Light Italic.otf"; sourceTree = "<group>"; };
+		6C4942602506A51700F4CF70 /* Gordita Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Black.otf"; sourceTree = "<group>"; };
+		6C4942612506A51700F4CF70 /* Gordita Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Regular.otf"; sourceTree = "<group>"; };
+		6C4942622506A51700F4CF70 /* Gordita Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Thin Italic.otf"; sourceTree = "<group>"; };
+		6C4942632506A51700F4CF70 /* Gordita Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Light.otf"; sourceTree = "<group>"; };
+		6C4942642506A51700F4CF70 /* Gordita Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Medium.otf"; sourceTree = "<group>"; };
+		6C4942652506A51700F4CF70 /* Gordita Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Ultra.otf"; sourceTree = "<group>"; };
+		6C4942662506A51700F4CF70 /* Gordita Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Black Italic.otf"; sourceTree = "<group>"; };
+		6C4942672506A51700F4CF70 /* Gordita Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Regular Italic.otf"; sourceTree = "<group>"; };
+		6C4942682506A51700F4CF70 /* Gordita Ultra Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordita Ultra Italic.otf"; sourceTree = "<group>"; };
 		6CB4A53225055564008C1FCF /* ExameCategoriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExameCategoriaViewController.swift; sourceTree = "<group>"; };
 		6CB4A5342505557E008C1FCF /* ExameCategoriaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExameCategoriaTableViewCell.swift; sourceTree = "<group>"; };
 		6CB4A5362505566F008C1FCF /* ExameLaboratorioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExameLaboratorioViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +199,27 @@
 			path = Perfil;
 			sourceTree = "<group>";
 		};
+		6C49425A2506A51700F4CF70 /* gordita-cufonfonts */ = {
+			isa = PBXGroup;
+			children = (
+				6C49425B2506A51700F4CF70 /* Gordita Bold Italic.otf */,
+				6C49425C2506A51700F4CF70 /* Gordita Thin.otf */,
+				6C49425D2506A51700F4CF70 /* Gordita Medium Italic.otf */,
+				6C49425E2506A51700F4CF70 /* Gordita Bold.otf */,
+				6C49425F2506A51700F4CF70 /* Gordita Light Italic.otf */,
+				6C4942602506A51700F4CF70 /* Gordita Black.otf */,
+				6C4942612506A51700F4CF70 /* Gordita Regular.otf */,
+				6C4942622506A51700F4CF70 /* Gordita Thin Italic.otf */,
+				6C4942632506A51700F4CF70 /* Gordita Light.otf */,
+				6C4942642506A51700F4CF70 /* Gordita Medium.otf */,
+				6C4942652506A51700F4CF70 /* Gordita Ultra.otf */,
+				6C4942662506A51700F4CF70 /* Gordita Black Italic.otf */,
+				6C4942672506A51700F4CF70 /* Gordita Regular Italic.otf */,
+				6C4942682506A51700F4CF70 /* Gordita Ultra Italic.otf */,
+			);
+			path = "gordita-cufonfonts";
+			sourceTree = "<group>";
+		};
 		6CB4A53125055533008C1FCF /* Exame */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,10 +253,10 @@
 		6CD209BA24FF1E730040613A /* MegaHackWomen */ = {
 			isa = PBXGroup;
 			children = (
-				6C022CA12505B4A400D1FF9D /* Perfil */,
 				6CD209BB24FF1E730040613A /* AppDelegate.swift */,
 				6CD209BD24FF1E730040613A /* SceneDelegate.swift */,
 				BC4E36612500533900A4D9F0 /* StringRandom.swift */,
+				6C022CA12505B4A400D1FF9D /* Perfil */,
 				6CF62DB62504189B0050A814 /* Model */,
 				BC4E366F2500598A00A4D9F0 /* Join */,
 				BC4E3670250059AB00A4D9F0 /* Buyer */,
@@ -215,6 +266,7 @@
 				6CB4A53125055533008C1FCF /* Exame */,
 				BC4E36BA250424EE00A4D9F0 /* History */,
 				6CD209C124FF1E730040613A /* Main.storyboard */,
+				6C49425A2506A51700F4CF70 /* gordita-cufonfonts */,
 				6CD209C424FF1E740040613A /* Assets.xcassets */,
 				6CD209C624FF1E740040613A /* LaunchScreen.storyboard */,
 				6CD209C924FF1E740040613A /* Info.plist */,
@@ -234,6 +286,7 @@
 				6CF62DCB250463190050A814 /* DatasViewController.swift */,
 				6C022C9F25059BB700D1FF9D /* HorarioViewController.swift */,
 				BC5762AC25067DDC004864AE /* EntryHomeViewController.swift */,
+				6C49425825069F0B00F4CF70 /* FiltrarProfissionaisViewController.swift */,
 			);
 			path = Consulta;
 			sourceTree = "<group>";
@@ -385,9 +438,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4942732506A51700F4CF70 /* Gordita Ultra.otf in Resources */,
 				6CD209C824FF1E740040613A /* LaunchScreen.storyboard in Resources */,
 				6CD209C524FF1E740040613A /* Assets.xcassets in Resources */,
+				6C4942752506A51700F4CF70 /* Gordita Regular Italic.otf in Resources */,
 				6CD209C324FF1E730040613A /* Main.storyboard in Resources */,
+				6C4942722506A51700F4CF70 /* Gordita Medium.otf in Resources */,
+				6C4942692506A51700F4CF70 /* Gordita Bold Italic.otf in Resources */,
+				6C49426A2506A51700F4CF70 /* Gordita Thin.otf in Resources */,
+				6C4942762506A51700F4CF70 /* Gordita Ultra Italic.otf in Resources */,
+				6C49426C2506A51700F4CF70 /* Gordita Bold.otf in Resources */,
+				6C49426F2506A51700F4CF70 /* Gordita Regular.otf in Resources */,
+				6C49426E2506A51700F4CF70 /* Gordita Black.otf in Resources */,
+				6C4942702506A51700F4CF70 /* Gordita Thin Italic.otf in Resources */,
+				6C49426B2506A51700F4CF70 /* Gordita Medium Italic.otf in Resources */,
+				6C4942742506A51700F4CF70 /* Gordita Black Italic.otf in Resources */,
+				6C4942712506A51700F4CF70 /* Gordita Light.otf in Resources */,
+				6C49426D2506A51700F4CF70 /* Gordita Light Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +538,7 @@
 				BC4E36622500533900A4D9F0 /* StringRandom.swift in Sources */,
 				BC4E36BE2504535000A4D9F0 /* ExamsHistoryViewController.swift in Sources */,
 				6CD209BC24FF1E730040613A /* AppDelegate.swift in Sources */,
+				6C49425925069F0B00F4CF70 /* FiltrarProfissionaisViewController.swift in Sources */,
 				6C022CA52505B56A00D1FF9D /* MinhaSaudeViewController.swift in Sources */,
 				BC4E36682500546C00A4D9F0 /* ClientViewControllerHandlers.swift in Sources */,
 				6CF62DC8250443B20050A814 /* ProfissionalViewController.swift in Sources */,
