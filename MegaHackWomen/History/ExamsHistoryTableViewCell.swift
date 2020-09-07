@@ -12,6 +12,7 @@ class ExamsHistoryTableViewCell: UITableViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var dayOfWeekLabel: UILabel!
     @IBOutlet weak var examLabel: UILabel!
+    @IBOutlet weak var examImage: UIImageView!
     
 
     override func awakeFromNib() {

@@ -14,7 +14,8 @@ class AppointmentHistoryTableViewCell: UITableViewCell {
     @IBOutlet weak var doctorLabel: UILabel!
     @IBOutlet weak var specialtyLabel: UILabel!
     @IBOutlet weak var doctorImage: UIImageView!
-
+    @IBOutlet weak var librasImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

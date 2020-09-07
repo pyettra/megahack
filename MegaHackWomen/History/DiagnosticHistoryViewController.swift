@@ -11,6 +11,8 @@ import UIKit
 class DiagnosticHistoryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
     
+    let green = #colorLiteral(red: 0, green: 0.6044276357, blue: 0.3629511595, alpha: 1)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,14 +26,12 @@ class DiagnosticHistoryViewController: UIViewController, UITableViewDataSource, 
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "diagnosticCell", for: indexPath) as! DiagnosticHistoryTableViewCell
+        cell.contentView.backgroundColor = green
         
         cell.dateLabel.text = "14 de setembro"
         cell.dayOfWeekLabel.text = "Quarta-Feira"
         cell.ilnessLabel.text = "Bursite - joelho direito"
-        cell.diagnoseLabel.text = "Diagnóstico feito por:"
-        cell.doctorLabel.text = "Dr Fulano Ciclano"
-        
-
+        cell.diagnoseLabel.text = "Diagnóstico feito por: Raíssa Pascoal"
         
         return cell
     }
