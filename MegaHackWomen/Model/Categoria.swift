@@ -10,10 +10,12 @@ import Foundation
 import UIKit
 
 class Categoria {
-    internal init(nome: String) {
+    internal init(nome: String, imagem: UIImage) {
         self.nome = nome
+        self.imagem = imagem
     }
     
     var nome: String
+    var imagem: UIImage
 }
 

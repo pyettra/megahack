@@ -49,6 +49,14 @@ class ConsultaProfissionalViewController: UIViewController, UITableViewDataSourc
         
         cell.nomeLbl?.text = profissional.nome
         
+        cell.profissionalImg.image = profissional.image
+        
+        cell.acessibilidadeImg.image = profissional.acessibilidades[0].imagem2
+        
+        cell.acessibilidade2Img.image = profissional.acessibilidades[1].imagem2
+        
+        cell.crm.text = profissional.crm
+        
         return cell
     }
     

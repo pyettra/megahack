@@ -21,11 +21,18 @@ class ProfissionalViewController: UIViewController {
 
     @IBOutlet weak var imagem: UIImageView!
     
-    @IBOutlet weak var acessibilidade: UILabel!
     
-    @IBOutlet weak var acessibilidade2: UILabel!
+    @IBOutlet weak var acessibilidadeImg: UIImageView!
     
-    @IBOutlet weak var acessibilidade3: UILabel!
+    @IBOutlet weak var acessibilidadeLbl: UILabel!
+    
+    @IBOutlet weak var acessibilidade2Img: UIImageView!
+    
+    @IBOutlet weak var acessibilidade2Lbl: UILabel!
+    
+    @IBOutlet weak var acessibilidade3Img: UIImageView!
+    
+    @IBOutlet weak var acessibilidade3Lbl: UILabel!
     
     var profissionalSelecionado = 0
     
@@ -42,11 +49,17 @@ class ProfissionalViewController: UIViewController {
         
         texto.text = profissional.texto
         
-        acessibilidade.text = profissional.acessibilidades[0].nome
+        acessibilidadeImg.image = profissional.acessibilidades[0].imagem
         
-        acessibilidade2.text = profissional.acessibilidades[1].nome
+        acessibilidadeLbl.text = profissional.acessibilidades[0].nome
         
-        acessibilidade3.text = profissional.acessibilidades[2].nome
+        acessibilidade2Img.image = profissional.acessibilidades[1].imagem
+        
+        acessibilidade2Lbl.text = profissional.acessibilidades[1].nome
+        
+        acessibilidade3Img.image = profissional.acessibilidades[2].imagem
+        
+        acessibilidade3Lbl.text = profissional.acessibilidades[2].nome
         
     }
     

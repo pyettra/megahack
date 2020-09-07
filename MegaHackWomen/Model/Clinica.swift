@@ -10,13 +10,12 @@ import Foundation
 import UIKit
 
 class Clinica {
-    internal init(nome: String, endereco: String, texto: String, imagem: UIImage, acessibilidades: [Acessibilidade], datas: [String]) {
+    internal init(nome: String, endereco: String, texto: String, imagem: UIImage, acessibilidades: [Acessibilidade]) {
         self.nome = nome
         self.endereco = endereco
         self.texto = texto
         self.imagem = imagem
         self.acessibilidades = acessibilidades
-        self.datas = datas
     }
     
     var nome: String
@@ -24,8 +23,5 @@ class Clinica {
     var texto: String
     var imagem: UIImage
     var acessibilidades: [Acessibilidade]
-    var datas: [String]
-    
-    
     
 }

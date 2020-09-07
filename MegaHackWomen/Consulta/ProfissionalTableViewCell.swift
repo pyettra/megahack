@@ -13,6 +13,14 @@ class ProfissionalTableviewCell: UITableViewCell {
     
     @IBOutlet weak var nomeLbl: UILabel!
     
+    @IBOutlet weak var crm: UILabel!
+    
+    @IBOutlet weak var acessibilidadeImg: UIImageView!
+
+    @IBOutlet weak var acessibilidade2Img: UIImageView!
+    
+    @IBOutlet weak var profissionalImg: UIImageView!
+    
     override class func awakeFromNib() {
         super.awakeFromNib()
     }

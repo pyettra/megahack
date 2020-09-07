@@ -37,6 +37,8 @@ class ConsultaCategoriaViewController: UIViewController, UITableViewDataSource,U
         
         cell.categoriaLbl?.text = categoria.nome
         
+        cell.categoriaImg.image = categoria.imagem
+        
         return cell
     }
     

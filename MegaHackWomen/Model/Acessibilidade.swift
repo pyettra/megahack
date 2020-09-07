@@ -10,9 +10,13 @@ import Foundation
 import UIKit
 
 class Acessibilidade {
-    internal init (nome: String) {
+    internal init (imagem: UIImage, imagem2: UIImage, nome: String) {
+        self.imagem = imagem
+        self.imagem2 = imagem2
         self.nome = nome
     }
     
+    var imagem: UIImage
     var nome: String
+    var imagem2: UIImage
 }

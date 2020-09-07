@@ -14,6 +14,8 @@ class CategoriaTableViewCell : UITableViewCell {
     
     @IBOutlet weak var categoriaLbl: UILabel!
     
+    @IBOutlet weak var categoriaImg: UIImageView!
+    
     override class func awakeFromNib() {
         super.awakeFromNib()
     }

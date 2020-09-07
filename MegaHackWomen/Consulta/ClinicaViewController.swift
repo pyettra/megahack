@@ -17,11 +17,18 @@ class ClinicaViewController: UIViewController {
     
     @IBOutlet weak var imagem: UIImageView!
     
-    @IBOutlet weak var texto: UITextView!
-    
     @IBOutlet weak var acessibilidade: UILabel!
-
+    
+    @IBOutlet weak var acessibilidadeImg: UIImageView!
+    
     @IBOutlet weak var acessibilidade2: UILabel!
+    
+    @IBOutlet weak var acessibilidade2Img: UIImageView!
+    
+    @IBOutlet weak var acessibilidade3: UILabel!
+    
+    @IBOutlet weak var acessibilidade3Img: UIImageView!
+    
     
     var clinicaSelecionada = 0;
     
@@ -34,11 +41,27 @@ class ClinicaViewController: UIViewController {
         
         enderecoLbl.text = clinica.endereco
         
-        texto.text = clinica.texto
-        
         acessibilidade.text = clinica.acessibilidades[0].nome
         
+        acessibilidadeImg.image = clinica.acessibilidades[0].imagem
+        
         acessibilidade2.text = clinica.acessibilidades[1].nome
+        
+        acessibilidade2Img.image = clinica.acessibilidades[1].imagem
+        
+        acessibilidade3.text = clinica.acessibilidades[2].nome
+        
+        acessibilidade3Img.image = clinica.acessibilidades[2].imagem
+        
+    }
+    
+    
+    @IBAction func escolherData(_ sender: Any) {
+            if let vc = storyboard?.instantiateViewController(identifier: "data") as? DatasViewController {
+                
+                self.navigationController?.pushViewController(vc, animated: true)
+          
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
