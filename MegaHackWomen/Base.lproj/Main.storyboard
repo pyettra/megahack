@@ -63,7 +63,9 @@
         <scene sceneID="dWV-Ry-9Mj">
             <objects>
                 <navigationController id="HGE-FL-dRu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="KCY-L8-NbL"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="casa" id="KCY-L8-NbL">
+                        <color key="badgeColor" red="0.26389500500000002" green="0.59515744449999997" blue="0.38428205250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aoA-lq-793">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -80,7 +82,9 @@
         <scene sceneID="1tB-5W-4NW">
             <objects>
                 <navigationController title="Perfil" id="tqN-jB-qwK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Perfil" id="1CF-UX-BE9"/>
+                    <tabBarItem key="tabBarItem" title="Perfil" image="perfil" id="1CF-UX-BE9">
+                        <color key="badgeColor" red="0.26389500500000002" green="0.59515744449999997" blue="0.38428205250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yRS-wu-zWx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -97,7 +101,7 @@
         <scene sceneID="WhK-J8-88m">
             <objects>
                 <navigationController id="Ba9-8j-tYG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Configurações" id="aOi-I1-T4q"/>
+                    <tabBarItem key="tabBarItem" title="Configurações" image="engrenagem" id="aOi-I1-T4q"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PNI-yB-WRB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -114,7 +118,9 @@
         <scene sceneID="b1N-df-UXN">
             <objects>
                 <navigationController id="EUi-lM-pNu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Histórico" id="TfH-VE-yh2"/>
+                    <tabBarItem key="tabBarItem" title="Histórico" image="relogio" id="TfH-VE-yh2">
+                        <color key="badgeColor" red="0.26389500500000002" green="0.59515744449999997" blue="0.38428205250000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1ZA-5o-s1J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -783,9 +789,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRo-z9-JCl">
-                                <rect key="frame" x="184" y="712" width="46" height="30"/>
+                                <rect key="frame" x="43" y="632" width="328" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="doctor"/>
+                                <state key="normal" title="doctor">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="viewDoutor:" destination="dcP-zY-9DO" eventType="touchUpInside" id="dKn-eh-nXF"/>
                                 </connections>
@@ -902,7 +910,7 @@ consulta</string>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome da Categoria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JB6-OP-Lkr">
-                                                            <rect key="frame" x="46" y="31" width="320" height="24"/>
+                                                            <rect key="frame" x="46" y="31" width="320" height="28"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="320" id="Yrf-KF-rvA"/>
                                                             </constraints>
@@ -2026,7 +2034,7 @@ consulta</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFL-AM-y7Q">
-                                <rect key="frame" x="85" y="202" width="245" height="70"/>
+                                <rect key="frame" x="85" y="159" width="245" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoConsultas"/>
                                 <connections>
@@ -2034,7 +2042,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHM-kL-abr">
-                                <rect key="frame" x="85" y="296" width="245" height="70"/>
+                                <rect key="frame" x="85" y="295" width="245" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoExames"/>
                                 <connections>
@@ -2042,7 +2050,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfv-RN-rvl">
-                                <rect key="frame" x="85" y="398" width="245" height="70"/>
+                                <rect key="frame" x="85" y="434" width="245" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Receitas" image="BotaoReceitas"/>
                                 <connections>
@@ -2050,20 +2058,13 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ji8-0C-asX">
-                                <rect key="frame" x="85" y="496" width="245" height="70"/>
+                                <rect key="frame" x="85" y="573" width="245" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Diagnósticos" image="BotaoDiagnosticos"/>
                                 <connections>
                                     <segue destination="1Bh-gl-hAr" kind="show" id="Z3w-e9-a4K"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Histórico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X97-AU-ZaF">
-                                <rect key="frame" x="20" y="112" width="116" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="BOR-XX-YQh"/>
@@ -2444,6 +2445,7 @@ consulta</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.29144543410000001" green="0.6339133978" blue="0.41476261619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="HGE-FL-dRu" kind="relationship" relationship="viewControllers" id="UtJ-je-7Oa"/>
@@ -2677,6 +2679,13 @@ consulta</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Olá! Vamos arrumar tudo?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEp-gm-hji">
+                                <rect key="frame" x="20" y="79" width="374" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Gordita-Bold" family="Gordita" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Você poderá mudar suas configurações a qualquer momento" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxl-WT-lqk">
                                 <rect key="frame" x="20" y="186" width="374" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2694,7 +2703,7 @@ consulta</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmj-gy-5y7">
                                 <rect key="frame" x="20" y="439" width="154" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoComandodeVozPreenchido"/>
+                                <state key="normal" image="BotaoVerde"/>
                                 <connections>
                                     <action selector="voiceControlButton:" destination="wy3-YW-1bm" eventType="touchUpInside" id="Xah-ys-aUM"/>
                                     <segue destination="0bz-6O-iXq" kind="presentation" id="Jtb-1h-DgX"/>
@@ -2703,17 +2712,24 @@ consulta</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhW-bP-ZrT">
                                 <rect key="frame" x="240" y="439" width="154" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoToquePreenchido"/>
+                                <state key="normal" image="BotaoVerde"/>
                                 <connections>
                                     <action selector="touchButton:" destination="wy3-YW-1bm" eventType="touchUpInside" id="yGD-Q5-Wn5"/>
                                     <segue destination="0bz-6O-iXq" kind="presentation" id="a9e-w2-V8v"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Olá! Vamos arrumar tudo?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEp-gm-hji">
-                                <rect key="frame" x="20" y="79" width="374" height="105"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comando de Voz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1v-Og-dsY">
+                                <rect key="frame" x="20" y="439" width="154" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Gordita-Bold" family="Gordita" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toque" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTt-es-o9t">
+                                <rect key="frame" x="240" y="440" width="154" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -2724,6 +2740,8 @@ consulta</string>
                         <outlet property="label1" destination="oEp-gm-hji" id="Jlk-3f-rLg"/>
                         <outlet property="label2" destination="jxl-WT-lqk" id="OS0-JC-PqX"/>
                         <outlet property="label3" destination="v9v-IE-iOD" id="Wte-P1-Nki"/>
+                        <outlet property="label4" destination="c1v-Og-dsY" id="BlR-sc-j9S"/>
+                        <outlet property="label5" destination="rTt-es-o9t" id="Ajs-cS-1Ry"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zia-v4-7Gw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2745,6 +2763,38 @@ consulta</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqP-k6-OMR">
+                                <rect key="frame" x="24" y="268" width="176" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="BotaoContorno"/>
+                                <connections>
+                                    <action selector="textButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="iT2-De-SFu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP5-R5-sox">
+                                <rect key="frame" x="20" y="411" width="176" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="BotaoContorno"/>
+                                <connections>
+                                    <action selector="audioButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="km5-BB-Ee1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIY-qY-HY0">
+                                <rect key="frame" x="218" y="268" width="176" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="BotaoContorno"/>
+                                <connections>
+                                    <action selector="librasButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="whG-oJ-q4u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scJ-aQ-wbD">
+                                <rect key="frame" x="218" y="411" width="178" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="BotaoContorno"/>
+                                <connections>
+                                    <action selector="dislexiaButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="4h9-Sw-vQi"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xq-RC-VG6">
                                 <rect key="frame" x="140" y="750" width="135" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2753,38 +2803,34 @@ consulta</string>
                                     <segue destination="jkk-3P-XZz" kind="presentation" id="I7P-jO-NEz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqP-k6-OMR">
-                                <rect key="frame" x="43" y="302" width="144" height="69"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Textos e imagens padrão" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n18-kp-688">
+                                <rect key="frame" x="24" y="268" width="176" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoPadraoPreenchido"/>
-                                <connections>
-                                    <action selector="textButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="iT2-De-SFu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oP5-R5-sox">
-                                <rect key="frame" x="43" y="411" width="144" height="69"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="0.29144543410000001" green="0.6339133978" blue="0.41476261619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Libras" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1p-4O-QJM">
+                                <rect key="frame" x="218" y="267" width="176" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoAudioPreenchido"/>
-                                <connections>
-                                    <action selector="audioButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="km5-BB-Ee1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIY-qY-HY0">
-                                <rect key="frame" x="228" y="302" width="144" height="69"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.29144543410000001" green="0.6339133978" blue="0.41476261619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Áudio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MuX-Jd-FBv">
+                                <rect key="frame" x="24" y="411" width="172" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoLibrasPreenchido"/>
-                                <connections>
-                                    <action selector="librasButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="whG-oJ-q4u"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scJ-aQ-wbD">
-                                <rect key="frame" x="228" y="411" width="144" height="69"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.29144543410000001" green="0.6339133978" blue="0.41476261619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dislexia Amigável" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3S-Rc-4BW">
+                                <rect key="frame" x="218" y="411" width="176" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="BotaoDislexiaPreenchido"/>
-                                <connections>
-                                    <action selector="dislexiaButton:" destination="0bz-6O-iXq" eventType="touchUpInside" id="4h9-Sw-vQi"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.29144543410000001" green="0.6339133978" blue="0.41476261619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1Xw-ul-7VG"/>
@@ -2793,6 +2839,10 @@ consulta</string>
                         <outlet property="audioOutlet" destination="oP5-R5-sox" id="qdo-UR-y9y"/>
                         <outlet property="dislexiaOutlet" destination="scJ-aQ-wbD" id="iQt-q5-uXk"/>
                         <outlet property="label1" destination="YBd-9R-8ch" id="Ose-hm-O6E"/>
+                        <outlet property="label2" destination="n18-kp-688" id="yvb-Ah-tbY"/>
+                        <outlet property="label3" destination="MuX-Jd-FBv" id="MP9-gU-f53"/>
+                        <outlet property="label4" destination="a1p-4O-QJM" id="wI1-N8-lVz"/>
+                        <outlet property="label5" destination="u3S-Rc-4BW" id="cvZ-Be-xq2"/>
                         <outlet property="librasOutlet" destination="IIY-qY-HY0" id="C8l-2z-0aB"/>
                         <outlet property="textOutlet" destination="GqP-k6-OMR" id="V0X-UJ-klL"/>
                     </connections>
@@ -2832,25 +2882,25 @@ consulta</string>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VX2-Rg-h0O">
-                                <rect key="frame" x="22" y="285" width="367" height="34"/>
+                                <rect key="frame" x="22" y="258" width="367" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Número da carteirinha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w9J-PL-AgC">
-                                <rect key="frame" x="22" y="355" width="367" height="34"/>
+                                <rect key="frame" x="22" y="328" width="367" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome do contato" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A1S-E4-CJv">
-                                <rect key="frame" x="25" y="502" width="367" height="34"/>
+                                <rect key="frame" x="25" y="475" width="367" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWs-o3-PWC">
-                                <rect key="frame" x="138" y="578" width="32" height="32"/>
+                                <rect key="frame" x="138" y="551" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="BotaoFeminino"/>
                                 <connections>
@@ -2858,7 +2908,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmF-CV-uOt">
-                                <rect key="frame" x="219" y="579" width="32" height="32"/>
+                                <rect key="frame" x="219" y="552" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="BotaoMasculino"/>
                                 <connections>
@@ -2866,7 +2916,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ra-qu-eCl">
-                                <rect key="frame" x="287" y="579" width="102" height="32"/>
+                                <rect key="frame" x="287" y="552" width="102" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="BotaoOutroGenero"/>
                                 <connections>
@@ -2874,14 +2924,14 @@ consulta</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gênero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyj-Qf-3RC">
-                                <rect key="frame" x="22" y="585" width="68" height="18"/>
+                                <rect key="frame" x="22" y="558" width="68" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Medium" family="Gordita" pointSize="18"/>
                                 <color key="textColor" red="0.40000283720000002" green="0.39999482040000001" blue="0.40000027420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contato de emergência" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nDf-RC-l6h">
-                                <rect key="frame" x="22" y="427" width="367" height="34"/>
+                                <rect key="frame" x="22" y="400" width="367" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
@@ -3131,7 +3181,7 @@ consulta</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Você toma algum  medicamento de uso  contínuo?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAi-qZ-IsT">
-                                <rect key="frame" x="20" y="44" width="374" height="233"/>
+                                <rect key="frame" x="20" y="44" width="374" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Bold" family="Gordita" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -3146,12 +3196,12 @@ consulta</string>
                                 </connections>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lOM-o4-xqt">
-                                <rect key="frame" x="0.0" y="246" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="195" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obq-ei-8Eb">
-                                <rect key="frame" x="26" y="664" width="34" height="34"/>
+                                <rect key="frame" x="26" y="613" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3159,7 +3209,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4h-RI-9jS">
-                                <rect key="frame" x="26" y="577" width="34" height="34"/>
+                                <rect key="frame" x="26" y="526" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3167,7 +3217,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAS-aJ-Oud">
-                                <rect key="frame" x="26" y="491" width="34" height="34"/>
+                                <rect key="frame" x="26" y="440" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3175,7 +3225,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohV-gR-aSz">
-                                <rect key="frame" x="26" y="405" width="34" height="34"/>
+                                <rect key="frame" x="26" y="354" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3183,7 +3233,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WyK-Zl-rcg">
-                                <rect key="frame" x="26" y="323" width="34" height="34"/>
+                                <rect key="frame" x="26" y="272" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3191,35 +3241,35 @@ consulta</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sinvastatina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jca-ta-0oD">
-                                <rect key="frame" x="69" y="328" width="324" height="24"/>
+                                <rect key="frame" x="69" y="277" width="324" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Valsartana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1s-BZ-aa6">
-                                <rect key="frame" x="68" y="669" width="325" height="24"/>
+                                <rect key="frame" x="68" y="618" width="325" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Omeprazol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4v-vf-PjC">
-                                <rect key="frame" x="68" y="582" width="325" height="24"/>
+                                <rect key="frame" x="68" y="531" width="325" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Glimepirida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuG-Ym-IHS">
-                                <rect key="frame" x="68" y="496" width="325" height="24"/>
+                                <rect key="frame" x="68" y="445" width="325" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Captopril" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnJ-Q2-dgl">
-                                <rect key="frame" x="68" y="410" width="325" height="24"/>
+                                <rect key="frame" x="68" y="359" width="325" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -3264,14 +3314,14 @@ consulta</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qual seu tipo sanguíneo?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCR-ll-Gbn">
-                                <rect key="frame" x="20" y="44" width="374" height="184"/>
+                                <rect key="frame" x="20" y="44" width="374" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Bold" family="Gordita" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAj-hv-LEF">
-                                <rect key="frame" x="54" y="262" width="110" height="58"/>
+                                <rect key="frame" x="54" y="223" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoA+"/>
                                 <connections>
@@ -3279,7 +3329,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQw-Cx-Kyj">
-                                <rect key="frame" x="250" y="368" width="110" height="58"/>
+                                <rect key="frame" x="250" y="329" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoB-"/>
                                 <connections>
@@ -3287,7 +3337,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mp-nK-JMQ">
-                                <rect key="frame" x="250" y="473" width="110" height="58"/>
+                                <rect key="frame" x="250" y="434" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoAB-"/>
                                 <connections>
@@ -3295,7 +3345,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REe-xz-zhO">
-                                <rect key="frame" x="250" y="262" width="110" height="58"/>
+                                <rect key="frame" x="250" y="223" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoA-"/>
                                 <connections>
@@ -3303,7 +3353,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKV-36-9qF">
-                                <rect key="frame" x="54" y="368" width="110" height="58"/>
+                                <rect key="frame" x="54" y="329" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoB+"/>
                                 <connections>
@@ -3311,7 +3361,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6OY-A3-53c">
-                                <rect key="frame" x="250" y="576" width="110" height="58"/>
+                                <rect key="frame" x="250" y="537" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoO-"/>
                                 <connections>
@@ -3319,7 +3369,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uq0-p4-rnM">
-                                <rect key="frame" x="54" y="473" width="110" height="58"/>
+                                <rect key="frame" x="54" y="434" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoAB+"/>
                                 <connections>
@@ -3327,7 +3377,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iho-ww-nuY">
-                                <rect key="frame" x="54" y="576" width="110" height="58"/>
+                                <rect key="frame" x="54" y="537" width="110" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="BotaoO+"/>
                                 <connections>
@@ -3379,12 +3429,12 @@ consulta</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UVJ-b5-kY7">
-                                <rect key="frame" x="0.0" y="241" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="197" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mu0-v1-HQu">
-                                <rect key="frame" x="21" y="551" width="34" height="34"/>
+                                <rect key="frame" x="20" y="507" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3392,7 +3442,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onM-kA-ciV">
-                                <rect key="frame" x="21" y="621" width="34" height="34"/>
+                                <rect key="frame" x="20" y="577" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3400,7 +3450,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otD-MK-9jq">
-                                <rect key="frame" x="21" y="314" width="34" height="34"/>
+                                <rect key="frame" x="20" y="270" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3408,7 +3458,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mN-9P-AHI">
-                                <rect key="frame" x="21" y="394" width="34" height="34"/>
+                                <rect key="frame" x="20" y="350" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3416,7 +3466,7 @@ consulta</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzI-ju-etD">
-                                <rect key="frame" x="21" y="475" width="34" height="34"/>
+                                <rect key="frame" x="20" y="431" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Checkbox"/>
                                 <connections>
@@ -3424,35 +3474,35 @@ consulta</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carbamazepina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cp5-TC-c5p">
-                                <rect key="frame" x="79" y="551" width="316" height="34"/>
+                                <rect key="frame" x="78" y="507" width="316" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contraste de iodo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDm-Pa-uOw">
-                                <rect key="frame" x="80" y="475" width="315" height="34"/>
+                                <rect key="frame" x="79" y="431" width="315" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insulina de origem animal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oj8-g0-Kj0">
-                                <rect key="frame" x="80" y="394" width="315" height="34"/>
+                                <rect key="frame" x="79" y="350" width="315" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ibuprofeno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ww8-He-o11">
-                                <rect key="frame" x="82" y="621" width="313" height="34"/>
+                                <rect key="frame" x="81" y="577" width="313" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Penicilina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEC-cS-Dy2">
-                                <rect key="frame" x="81" y="314" width="314" height="34"/>
+                                <rect key="frame" x="80" y="270" width="314" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Gordita-Regular" family="Gordita" pointSize="18"/>
                                 <nil key="textColor"/>
@@ -3774,8 +3824,8 @@ consulta</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pergunta 2 de 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qk9-vY-7m7">
-                                <rect key="frame" x="122" y="120" width="170" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pergunta 2 de 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qk9-vY-7m7">
+                                <rect key="frame" x="134" y="120" width="146.5" height="18"/>
                                 <fontDescription key="fontDescription" name="Gordita-Bold" family="Gordita" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -3974,30 +4024,26 @@ consulta</string>
         <image name="BotaoA-" width="440" height="232"/>
         <image name="BotaoAB+" width="440" height="232"/>
         <image name="BotaoAB-" width="440" height="232"/>
-        <image name="BotaoAudioPreenchido" width="576" height="276"/>
         <image name="BotaoB+" width="440" height="232"/>
         <image name="BotaoB-" width="440" height="232"/>
-        <image name="BotaoComandodeVozPreenchido" width="616" height="424"/>
         <image name="BotaoComecar" width="540" height="192"/>
         <image name="BotaoConsultas" width="980" height="280"/>
+        <image name="BotaoContorno" width="616" height="424"/>
         <image name="BotaoDiagnosticos" width="980" height="280"/>
-        <image name="BotaoDislexiaPreenchido" width="576" height="276"/>
         <image name="BotaoExames" width="980" height="280"/>
         <image name="BotaoFeminino" width="132" height="128"/>
         <image name="BotaoFim" width="696" height="248"/>
-        <image name="BotaoLibrasPreenchido" width="576" height="276"/>
         <image name="BotaoMasculino" width="132" height="128"/>
         <image name="BotaoNao" width="564" height="248"/>
         <image name="BotaoO+" width="440" height="232"/>
         <image name="BotaoO-" width="440" height="232"/>
         <image name="BotaoOutroGenero" width="408" height="128"/>
-        <image name="BotaoPadraoPreenchido" width="576" height="276"/>
         <image name="BotaoPaginaInicial" width="564" height="248"/>
         <image name="BotaoProximo" width="540" height="192"/>
         <image name="BotaoProximo2" width="564" height="248"/>
         <image name="BotaoReceitas" width="980" height="280"/>
         <image name="BotaoSim" width="564" height="248"/>
-        <image name="BotaoToquePreenchido" width="616" height="424"/>
+        <image name="BotaoVerde" width="616" height="424"/>
         <image name="Campo de Texto - Peso" width="153" height="48"/>
         <image name="Checkbox" width="34" height="34"/>
         <image name="Consultas Feitas" width="153" height="153"/>
@@ -4013,6 +4059,8 @@ consulta</string>
         <image name="botaoHorario" width="103" height="61"/>
         <image name="botao_agendar" width="245" height="106"/>
         <image name="botao_perfil" width="311" height="62"/>
+        <image name="casa" width="25" height="26"/>
+        <image name="engrenagem" width="26" height="26"/>
         <image name="image 114" width="101" height="101"/>
         <image name="image 115" width="100" height="101"/>
         <image name="image 116" width="101" height="101"/>
@@ -4022,6 +4070,8 @@ consulta</string>
         <image name="med2" width="22" height="50"/>
         <image name="medica" width="751" height="1280"/>
         <image name="medicamento" width="327" height="102"/>
+        <image name="perfil" width="25" height="26"/>
+        <image name="relogio" width="26" height="26"/>
         <image name="retangulo" width="34" height="33"/>
     </resources>
 </document>

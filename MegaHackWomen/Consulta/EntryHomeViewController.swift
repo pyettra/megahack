@@ -12,11 +12,14 @@ import StreamChat
 import StreamChatClient
 
 class EntryHomeViewController: UIViewController {
+    
+    let green = #colorLiteral(red: 0, green: 0.6044276357, blue: 0.3629511595, alpha: 1)
 
     @IBAction func iniciarConsulta(_ sender: Any) {
         Client.shared.set(user: .init(id: .random()), token: .development)
         
-        let buttonEndAppointment = UIBarButtonItem(title: "End", style: .plain, target: self, action: #selector(ratingAppointment))
+        let buttonEndAppointment = UIBarButtonItem(title: "Encerrar", style: .plain, target: self, action: #selector(ratingAppointment))
+        buttonEndAppointment.tintColor = green
         
         let uid = Client.shared.user.id
         let channel = Client.shared.channel(type: .messaging, id: "support-\(uid)")
@@ -29,7 +32,7 @@ class EntryHomeViewController: UIViewController {
         
         let chatVC = ChatViewController()
         chatVC.presenter = .init(channel: channel)
-        chatVC.title = "Messages"
+        chatVC.title = "Dra. Sabrina Moraes"
         chatVC.navigationItem.rightBarButtonItem = buttonEndAppointment
         
         let navigation = UINavigationController(rootViewController: chatVC)
@@ -51,7 +54,7 @@ class EntryHomeViewController: UIViewController {
     }
     
     @IBAction func viewDoutor(_ sender: Any) {
-        Client.shared.set(user: .init(id: "Doctor"), token: .development) { result in
+        Client.shared.set(user: .init(id: "doctor"), token: .development) { result in
             switch result {
             case .success:
                 let channelsVC = ChannelsViewController()

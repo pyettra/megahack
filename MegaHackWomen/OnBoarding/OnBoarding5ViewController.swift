@@ -69,23 +69,23 @@ class OnBoarding5ViewController: UIViewController {
         intelectualCheckBox.setImage(UIImage(named: "Checkbox"), for: .normal)
         noneCheckBox.setImage(UIImage(named: "Checkbox"), for: .normal)
         
-        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
-        label1.adjustsFontForContentSizeCategory = true
-        
-        label2.font = UIFont.preferredFont(forTextStyle: .body)
-        label2.adjustsFontForContentSizeCategory = true
-
-        label3.font = UIFont.preferredFont(forTextStyle: .body)
-        label3.adjustsFontForContentSizeCategory = true
-
-        label4.font = UIFont.preferredFont(forTextStyle: .body)
-        label4.adjustsFontForContentSizeCategory = true
-
-        label5.font = UIFont.preferredFont(forTextStyle: .body)
-        label5.adjustsFontForContentSizeCategory = true
-
-        label6.font = UIFont.preferredFont(forTextStyle: .body)
-        label6.adjustsFontForContentSizeCategory = true
+//        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+//        label1.adjustsFontForContentSizeCategory = true
+//        
+//        label2.font = UIFont.preferredFont(forTextStyle: .body)
+//        label2.adjustsFontForContentSizeCategory = true
+//
+//        label3.font = UIFont.preferredFont(forTextStyle: .body)
+//        label3.adjustsFontForContentSizeCategory = true
+//
+//        label4.font = UIFont.preferredFont(forTextStyle: .body)
+//        label4.adjustsFontForContentSizeCategory = true
+//
+//        label5.font = UIFont.preferredFont(forTextStyle: .body)
+//        label5.adjustsFontForContentSizeCategory = true
+//
+//        label6.font = UIFont.preferredFont(forTextStyle: .body)
+//        label6.adjustsFontForContentSizeCategory = true
         
         
 

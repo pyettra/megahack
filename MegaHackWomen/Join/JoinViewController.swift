@@ -27,7 +27,7 @@ class JoinViewController: UIViewController {
     }
     
     @IBAction func doctorButton(_ sender: Any) {
-        Client.shared.set(user: .init(id: "Doctor"), token: .development) { result in
+        Client.shared.set(user: .init(id: "Dra. Sabrina Moraes"), token: .development) { result in
             switch result {
             case .success:
                 let channelsVC = ChannelsViewController()
