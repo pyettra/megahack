@@ -146,6 +146,10 @@ class OnBoarding8ViewController: UIViewController {
         super.viewDidLoad()
         isSelected = false
         setCircle()
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        label1.adjustsFontForContentSizeCategory = true
+        
     }
 
 }

@@ -18,6 +18,14 @@ class OnBoarding10ViewController: UIViewController {
     @IBOutlet weak var exercise7: UIButton!
     @IBOutlet weak var exercise8: UIButton!
     @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var label4: UILabel!
+    @IBOutlet weak var label5: UILabel!
+    @IBOutlet weak var label6: UILabel!
+    @IBOutlet weak var label7: UILabel!
+    @IBOutlet weak var label8: UILabel!
+    @IBOutlet weak var label9: UILabel!
     
     
     @IBAction func exercise1Button(_ sender: Any) {
@@ -95,6 +103,33 @@ class OnBoarding10ViewController: UIViewController {
         exercise6.setImage(UIImage(named: "Checkbox"), for: .normal)
         exercise7.setImage(UIImage(named: "Checkbox"), for: .normal)
         exercise8.setImage(UIImage(named: "Checkbox"), for: .normal)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        label1.adjustsFontForContentSizeCategory = true
+        
+        label2.font = UIFont.preferredFont(forTextStyle: .body)
+        label2.adjustsFontForContentSizeCategory = true
+
+        label3.font = UIFont.preferredFont(forTextStyle: .body)
+        label3.adjustsFontForContentSizeCategory = true
+
+        label4.font = UIFont.preferredFont(forTextStyle: .body)
+        label4.adjustsFontForContentSizeCategory = true
+
+        label5.font = UIFont.preferredFont(forTextStyle: .body)
+        label5.adjustsFontForContentSizeCategory = true
+
+        label6.font = UIFont.preferredFont(forTextStyle: .body)
+        label6.adjustsFontForContentSizeCategory = true
+        
+        label7.font = UIFont.preferredFont(forTextStyle: .body)
+        label7.adjustsFontForContentSizeCategory = true
+        
+        label8.font = UIFont.preferredFont(forTextStyle: .body)
+        label8.adjustsFontForContentSizeCategory = true
+        
+        label9.font = UIFont.preferredFont(forTextStyle: .body)
+        label9.adjustsFontForContentSizeCategory = true
         
     }
     

@@ -16,6 +16,11 @@ class OnBoarding5ViewController: UIViewController {
     @IBOutlet weak var noneCheckBox: UIButton!
     
     @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var label4: UILabel!
+    @IBOutlet weak var label5: UILabel!
+    @IBOutlet weak var label6: UILabel!
     
     
     
@@ -67,20 +72,20 @@ class OnBoarding5ViewController: UIViewController {
         label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         label1.adjustsFontForContentSizeCategory = true
         
-//        label2.font = UIFont.preferredFont(forTextStyle: .body)
-//        label2.adjustsFontForContentSizeCategory = true
-//
-//        label3.font = UIFont.preferredFont(forTextStyle: .body)
-//        label3.adjustsFontForContentSizeCategory = true
-//
-//        label4.font = UIFont.preferredFont(forTextStyle: .body)
-//        label4.adjustsFontForContentSizeCategory = true
-//
-//        label5.font = UIFont.preferredFont(forTextStyle: .body)
-//        label5.adjustsFontForContentSizeCategory = true
-//
-//        label6.font = UIFont.preferredFont(forTextStyle: .body)
-//        label6.adjustsFontForContentSizeCategory = true
+        label2.font = UIFont.preferredFont(forTextStyle: .body)
+        label2.adjustsFontForContentSizeCategory = true
+
+        label3.font = UIFont.preferredFont(forTextStyle: .body)
+        label3.adjustsFontForContentSizeCategory = true
+
+        label4.font = UIFont.preferredFont(forTextStyle: .body)
+        label4.adjustsFontForContentSizeCategory = true
+
+        label5.font = UIFont.preferredFont(forTextStyle: .body)
+        label5.adjustsFontForContentSizeCategory = true
+
+        label6.font = UIFont.preferredFont(forTextStyle: .body)
+        label6.adjustsFontForContentSizeCategory = true
         
         
 

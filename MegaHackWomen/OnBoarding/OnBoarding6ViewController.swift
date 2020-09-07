@@ -18,6 +18,9 @@ class OnBoarding6ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
+        
+        label1.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        label1.adjustsFontForContentSizeCategory = true
 
     }
 }
